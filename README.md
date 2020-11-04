@@ -31,7 +31,7 @@ This is for people who want to guide their own journey. For the Technical Skills
 ### Programming Languages (Pick one; do more later.)
 
 * Python: [Learn Python 3 the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888)
-
+  * [Learn Python the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914) Learning Python 2 is also acceptable
 
 ### Version Control
 * Git. Realistically, just learn git and GitHub at this point.

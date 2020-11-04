@@ -26,6 +26,7 @@ This is for people who want to guide their own journey. For the Technical Skills
 * Windows: I don't have a good recommendation for this.
 
 * Mac OS: I don't have a good recommendation for this.
+  * I will find a recommendation for this. [Max]
 
 ### Programming Languages (Pick one; do more later.)
 

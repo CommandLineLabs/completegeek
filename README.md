@@ -42,8 +42,9 @@ Continue with the rest of the program in order.
 ### General Office / Basic Skills (You gotta have all of these.)
 * Basic competence in Microsoft Word, PowerPoint, and Excel
     * Power-user level (especially in Excel) at a later date.
-* Text editing (using the editor of your choice) in Markdown
-* Typing (touch typing, two-finger typing, nose typing, or whatever) with competence and a reasonable rate of speed. 
+* Markdown basics
+* Typing (touch typing, two-finger typing, nose typing, or whatever) with competence and a reasonable rate of speed.
+* Pick a text editor. Vim, Emacs, Sublime Text, Atom, a quill pen, whatever, doesn't matter, but pick one and get damn good at it. Customize it to suit exactly the way you work and the things you work on.
 
 ### Desktop Operating Systems
 * If you don't have a preference and can afford it, get an Apple laptop or desktop. If you have a preference, get that.
@@ -59,6 +60,7 @@ Continue with the rest of the program in order.
   * Esoteric Unix Skills: At your leisure, do a deep dive into some of these subjects. Make sure to include regular expressions.
     * [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124)
     * [Sed & Awk](https://www.amazon.com/Sed-Awk-2nd-Edition/dp/B00007FYIJ)
+    * DNS and BIND
   
 * Windows: I don't have a good recommendation for this.
 
@@ -89,6 +91,18 @@ Continue with the rest of the program in order.
 #### Assembly
 
 #### Web Development
+
+
+### System Administration / Automation / DevOps / SRE
+* The Practice of System and Network Administration
+* The Practice of Cloud System Administration
+* Site Reliability Engineering
+
+
+### Methodologies, Philosophies, and Buzzwords
+* Waterfall
+* Agile
+* etc.
 
 
 ### Version Control
@@ -136,11 +150,17 @@ Continue with the rest of the program in order.
 * [Joel on Software](https://www.amazon.com/Joel-Software-Occasionally-Developers-Designers/dp/1590593898)
 * [More Joel On Software](https://www.amazon.com/More-Joel-Software-Occasionally-Developers/dp/1430209879)
 * [Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?crid=62GZK0EBAMWG) The original "you can't get a baby in one month by getting nine women pregnant" book.
+* Managing Humans by Michael Lopp
 
 ## Financial Skills
 
 ### Personal Finance & Investing
 * [A Random Walk Down Wall Street](https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393358380)
 * [The Investor's Manifesto](https://www.amazon.com/Investors-Manifesto-Prosperity-Armageddon-Everything-ebook/dp/B002U3CBY8) and EVERY book by William J. Bernstein.
+* The Millionaire Next Door
+* The Richest Man in Babylon
+
 
 ## Life Skills
+
+* Getting Things Done (GTD)

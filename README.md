@@ -34,7 +34,7 @@ Then you'll study Linux/UNIX.
 
 Then one of the scripting languages.
 
-Study further programming languages as your interests lead you.
+Skip studying further programming languages for now but come back as your interests lead you.
 
 Continue with the rest of the program in order.
 
@@ -144,6 +144,14 @@ Continue with the rest of the program in order.
 * OpenStack
 * Google Cloud
 * Microsoft Azure
+
+## Non-Technical Job Skills
+* Communication
+* Writing well
+* Hiring and interviews
+* Negotiating for compensation
+
+
 
 ## Business and Management Skills
 

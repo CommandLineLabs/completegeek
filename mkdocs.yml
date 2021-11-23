@@ -1,0 +1,18 @@
+site_name: The Complete Geek Guide
+strict: True
+# site_url: Put the URL of the site here
+# repo_url: Put the URL of the git repo here
+site_description: The Command Line Labs Guide to Becoming a Complete Geek
+site_author: Command Line Labs
+copyright: Command Line Labs
+theme: readthedocs
+nav:
+  - introduction.md
+  - getting-started.md
+  - using-linux.md
+  - basic-networking.md
+  - understanding-linux.md
+  - intro-python.md
+  - static-site.md
+  - flask-site.md
+  - administering-linux.md

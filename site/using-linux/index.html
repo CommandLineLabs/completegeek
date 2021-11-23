@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Command Line Labs">
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Using Linux - The Complete Geek Guide</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Using Linux";
+    var mkdocs_page_input_path = "using-linux.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> The Complete Geek Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Using Linux</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-1-documentation">Chapter 1, Documentation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-2-files-and-processes">Chapter 2, Files and Processes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-3-redirection-and-pipes">Chapter 3, Redirection and Pipes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-4-networking">Chapter 4, Networking</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-5-vi-dotfiles-and-regular-expressions">Chapter 5, vi, Dotfiles, and Regular Expressions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-6-muddling-through-shells">Chapter 6, Muddling Through Shells</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-7-variables-and-quoting">Chapter 7, Variables and Quoting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-8-conditional-execution-and-loops">Chapter 8, Conditional Execution and Loops</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-9-shell-scripts-and-more">Chapter 9, Shell Scripts and More</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-10-and-chapter-11">Chapter 10 and Chapter 11</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../basic-networking/">Basic Networking</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../understanding-linux/">Understanding Linux</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../intro-python/">Intro python</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../static-site/">Static site</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../flask-site/">Flask site</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../administering-linux/">Administering Linux</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">The Complete Geek Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Using Linux</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="using-linux">Using Linux</h1>
+<p>The text we'll be using for this chapter is <a href="https://www.amazon.com/Think-UNIX-Jon-Lasser/dp/078972376X/">Think UNIX</a> by Jon Lasser. It's a classic, but still relevant for reasons we'll discuss shortly.</p>
+<p>The problem with becoming a professional in the Microsoft Windows evironment is that 50% of your knowledge and skills will become obsolete within five years. And it's incredibly difficult to predict in advance which 50% will be obsolete.</p>
+<p>With Linux, in contrast, it's quite easy to tell what parts of technology will stick around for a while and what won't. Docker and Kubernetes will probably be obsolete or at least vastly changed by the end of your career. Grep, awk, regular expressions, and sed (a vastly incomplete list) will still be largely unchanged in 30 years, and will still be wildly useful.</p>
+<p>So the fact that this book is two decades old isn't a problem. The stuff it talks about is still totally valid.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Read all the introduction.</p>
+<h2 id="chapter-1-documentation">Chapter 1, Documentation</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-2-files-and-processes">Chapter 2, Files and Processes</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-3-redirection-and-pipes">Chapter 3, Redirection and Pipes</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-4-networking">Chapter 4, Networking</h2>
+<p>Hold off on Chapter 4 now. We'll do it in the <a href="../basic-networking/">Basic Networking</a> chapter.</p>
+<h2 id="chapter-5-vi-dotfiles-and-regular-expressions">Chapter 5, vi, Dotfiles, and Regular Expressions</h2>
+<p>Read the entire chapter and do all the exercises. +</p>
+<h2 id="chapter-6-muddling-through-shells">Chapter 6, Muddling Through Shells</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-7-variables-and-quoting">Chapter 7, Variables and Quoting</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-8-conditional-execution-and-loops">Chapter 8, Conditional Execution and Loops</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-9-shell-scripts-and-more">Chapter 9, Shell Scripts and More</h2>
+<p>Read the entire chapter and do all the exercises.</p>
+<h2 id="chapter-10-and-chapter-11">Chapter 10 and Chapter 11</h2>
+<p>Skip. X Windows is the technology used to put up pretty pictures on a Linux screen, instead of just text. X Windows is still relevant to those who run Linux desktops or laptops. However, we're focusing on Linux in a server environment here, and X Windows is not relevant for that.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../basic-networking/" class="btn btn-neutral float-right" title="Basic Networking">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../getting-started/" class="btn btn-neutral" title="Getting Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Command Line Labs</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../getting-started/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../basic-networking/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

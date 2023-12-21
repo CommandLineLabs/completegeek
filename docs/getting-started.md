@@ -58,9 +58,9 @@ Use whichever download link is appropriate for your system, and run (open) the i
 
 After your computer reboots, you'll need to run the command prompt. Search for "cmd" and click the "Command Prompt" application.
 
-Once you're in the "Command Prompt" application, you'll see a black screen with white text. This is the Windows version of the Linux command-line prompt. You type commands and hit enter to have your computer do things.
+Once you're in the "Command Prompt" application, you'll see a black screen with white text. This is the Windows version of the Linux command-line prompt. You type commands and hit enter to have your computer do things. All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.
 
-Our next step is to create our virtual machine files. You'll need to decide where to store them, and then navigate to where you want to keep them. (All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.)
+Our next step is to create our virtual machine files. You'll need to decide where to store them, and then navigate to where you want to keep them.
 
 The prompt itself shows what directory you are in. For instance, when I started Command Prompt, my prompt was "`C:/Users/jms`". Yours will be different unless your initials are also "JMS." You'll use the following commands to see directory contents and change directories:
 
@@ -73,8 +73,10 @@ I decided to keep my virtual machine files in my Documents folder, so I typed "`
 
 In the Documents folder I created a directory called "completegeek_vm" and then changed to the completegeek_vm directory:
 
-`mkdir completegeek_vm`
-`cd completegeek_vm`
+```bash
+mkdir completegeek_vm
+cd completegeek_vm
+```
 
 You'll know you've done this correctly when your command prompt says:
 `C:\Users\jms\Documents\completegeek_vm`
@@ -92,7 +94,7 @@ The Vagrantfile is the configuration file for your VM. Now you actually need to 
 
 You'll see some status messages print on your screen. The "Downloading" part may take a while depending on how fast your Internet connection is.
 
-Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory, and issue the command "vagrant ssh":
+Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory(if necessary), and issue the command "vagrant ssh":
 
 ```bash
 cd C:\Users\jms\Documents\completegeek_vm

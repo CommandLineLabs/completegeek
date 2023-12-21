@@ -44,4 +44,79 @@ If you have an ARM-based Mac... [still working on this]
 
 ## Setting up a virtual machine on a Windows computer
 
+First, we'll need to install the VM software. For Windows, we're going to install virtual machine software called VirtualBox. This is the software that "pretends" to be an actual physical computer for the virtual machines running on it. Go to the [VirtualBox download page](https://www.virtualbox.org/wiki/Downloads) and click the "Windows hosts" link. This should download the installer for VirtualBox.
+
+Run (Open) the installer, allow it to make changes to your device, and accept all the default choices (say "Yes" or "Next" to everything).
+
+Once VirtualBox is installed, we'll need to install Vagrant. Vagrant is a virtual machine automation tool that will make it very easy to for us to create virtual machines. Go to the [Vagrant download page](https://developer.hashicorp.com/vagrant/downloads) and scroll to "Windows." You'll see two choices, "AMD64" or "i686."
+
+AMD64 is for 64-bit computers with 64-bit operating systems, and i686 is for 32-bit computers with 32-bit operating systems. (Don't worry about what that means; we'll cover it later.) **Unless your computer is really old it almost certainly has a 64-bit operating system and computer, so use the AMD64 download link.**
+
+If your computer is old, and you're not sure if it is 64-bit or 32-bit, Microsoft [wrote a page with instructions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d) about how to find out.
+
+Use whichever download link is appropriate for your system, and run (open) the installer. Click "Next or "Yes" to everything. You'll need to restart your computer after you finish running the installer.
+
+After your computer reboots, you'll need to run the command prompt. Search for "cmd" and click the "Command Prompt" application.
+
+Once you're in the "Command Prompt" application, you'll see a black screen with white text. This is the Windows version of the Linux command-line prompt. You type commands and hit enter to have your computer do things.
+
+Our next step is to create our virtual machine files. You'll need to decide where to store them, and then navigate to where you want to keep them. (All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.)
+
+The prompt itself shows what directory you are in. For instance, when I started Command Prompt, my prompt was "`C:/Users/jms`". Yours will be different unless your initials are also "JMS." You'll use the following commands to see directory contents and change directories:
+
+* `dir[ENTER]` -- shows you the contents of a directory
+* `cd DIRECTORY_NAME[ENTER]` -- changes to a different directory
+* `cd ..[ENTER]` -- goes up one directory level
+* `mkdir DIRECTORY_NAME[ENTER]` -- creates a directory
+
+I decided to keep my virtual machine files in my Documents folder, so I typed "`cd Documents`" and hit ENTER. My prompt changed to be "`C:/Users/jms/Documents`" which is how I know it worked.
+
+In the Documents folder I created a directory called "completegeek_vm" and then changed to the completegeek_vm directory:
+
+`mkdir completegeek_vm`
+`cd completegeek_vm`
+
+You'll know you've done this correctly when your command prompt says:
+`C:\Users\jms\Documents\completegeek_vm`
+(Of course, yours will be slightly different depending on your name.)
+
+Now we'll type the following command (after every command you'll hit [ENTER]) to create a virtual machine:
+
+`vagrant init ubuntu/jammy64`
+
+This should give you a message that "A Vagrantfile has been placed in this directory."
+
+The Vagrantfile is the configuration file for your VM. Now you actually need to create your virtual machine. To do that, you'll type:
+
+`vagrant up`
+
+You'll see some status messages print on your screen. The "Downloading" part may take a while depending on how fast your Internet connection is.
+
+Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory, and issue the command "vagrant ssh":
+
+`cd C:\Users\jms\Documents\completegeek_vm`
+`vagrant ssh`
+
+You should now see a welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`vagrant@ubuntu-jammy:~$`".
+
 ## CHECKPOINT 1: Verifying that your virtual machine is working properly
+
+Now connect to your VM. (The method you use to connect will be different depending on if you're using Vagrant or a different tool.) Once, connected, you should be able to enter the following commands:
+
+* `whoami` -- should show your user name (vagrant or ubuntu)
+* `date` -- should show the current date and time (timezone will be UTC, not your local timezone)
+* `uptime` -- should show the current time, and the number of minutes since you turned the VM on, as well as the number of users currently logged in (1) and the load average.
+
+Here's an example of what that looked like for me:
+
+```bash
+vagrant@ubuntu-jammy:~$ whoami
+vagrant
+vagrant@ubuntu-jammy:~$ date
+Thu Dec 21 19:54:49 UTC 2023
+vagrant@ubuntu-jammy:~$ uptime
+ 19:55:18 up 6 min,  1 user,  load average: 0.01, 0.18, 0.12
+vagrant@ubuntu-jammy:~$
+```
+
+If your output looks similar to mine, congratulations! You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to Chapter 2. If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.

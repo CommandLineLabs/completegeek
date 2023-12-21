@@ -41,7 +41,11 @@ At this time, there's a non-zero amount of money you'll need to spend to partici
 
 The most expensive thing you'll need is a Mac (Apple) or Windows computer. It doesn't have to be a super-recent or powerful one. (If you already have a Linux laptop, you're maybe not the target for this book.)
 
+*There's something important to note if you intend to use a computer supplied by your employer -- at least in the United States, your contract with your employer probably states that they own anything created on their laptop. That's not an issue for just studying this material, but once you're ready to create something useful, you'll want to make sure you're using your own computer.*
+
 You'll also (later) need about $5 a month to pay for a virtual server hosted in the cloud. And of course you'll need relatively decent Internet access. (If you can watch videos, your Internet is good enough.)
+
+We'll also link to some books. We'll clearly note which are optional, and which are required. Unfortunately computer books are expensive, so this will probably be the second most expensive part of this course after your laptop itself, although they may be available at librarys or other low-cost sources.
 
 ## Next Steps
 

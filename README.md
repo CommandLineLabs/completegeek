@@ -1,86 +1,27 @@
-# Complete Geek Guide
+# Introduction
 
-## Technical Skills Future Outline
+## What is a Complete Geek?
 
-### System Administration / Automation / DevOps / SRE
+What is a Complete Geek? It's someone who can get a high-paying job in the tech industry, manage their money wisely, invest for the future, retire when they want to, and live a good life.
 
-* The Practice of System and Network Administration
-* The Practice of Cloud System Administration
-* Site Reliability Engineering
+In the American Heritage dictionary, ["complete" has some of the following definitions](https://www.ahdictionary.com/word/search.html?q=complete&submit.x=42&submit.y=23):
 
-### Methodologies, Philosophies, and Buzzwords
+* **Having all necessary or normal parts, components, or steps; entire**: a complete medical history; a complete set of dishes.
+* **Absolute; thorough**: complete control; a complete mystery.
+* **Accomplished; consummate**: a complete musician.
 
-* Waterfall
-* Agile
-* etc.
+## What's the journey like?
 
-### Version Control
+This is for people who want to guide their own journey. The Command Line Labs team will provide as much support as we can, but this is ultimately a self-directed journey for self-motivated people. It is not for everyone.
 
-* Brief history of version control from vcs to svn to git and how we created decentralized version control with git and then re-centralized it with GitHub.
-* Git.
-* Github.
-* Writing good commit messages and good pull request messages
+This is not a Boot Camp. This is not the quickest way from A to B. Bootcamps teach you the basics of what to do and how stuff works, without teaching you WHY it works or what's under the surface.
 
-### Security and Encryption
+This is a time-consuming course that will teach you everything you need to know to be a strong, productive computer professional from almost nothing to expert level. It is not fast. It is entirely self paced, though. You can do this as quickly or slowly as you want. Doing this about 3-5 hours a week, it has taken previous students 18-24 months to complete the journey.
 
-* Basics of security on the desktop
-* Basics of security on the phone
-* Auth including 2-factor auth
-* ssh, including setting up ssh keys and ssh key auth
-* ssh server configuration
-* Basics of setting up a secure Linux server
-* Basics of setting up a secure Windows server (if studying Windows)
-* FIXME(schof): This can go a lot deeper, both on technical issues and on security as a career.
+I will have milestones or checkpoints at the end of every chapter. Do not proceed to the next chapter until you have completed the checkpoint. The checkpoints are there for a reason. Every chapter builds on the preceding chapters -- do not skip around.
 
-### Open Source Concepts
+Because this is entirely self-paced, you will have to provide your own drive to succeed. No one will nag you if you don't finish a chapter. This is entirely up to you. That said, we have a community of people who want to help you and want you to succeed! I strongly encourage you to take advantage of the discussion group, where other students or myself can help you. I also encourage you to take advantage of my office hours, where we can do a live call and discuss anything that's confusing you.
 
-### Technical Writing
+## Philosophy
 
-* Writing Documentation
-    * Documentation is not something you do AFTER you finish the job. Documentation is PART of finishing the job.
-* Writing good comments
-
-### Configuration Management (Pick one; study more later.)
-
-* Ansible
-* Puppet
-
-### Networking
-
-* You must have an understanding of basic networking, including (incomplete and in no particular order): DHCP, DNS, NAT, network troubleshooting tools and methodology, routing, etc. You should understand what's actually going on in your home router / access point.
-* There is almost no limit to how deeply you can study networking. Whether or not you make networking your career, getting better at networking will make you better at almost every technical field.
-* You can self-study or there are are clearly-defined and widely-recognized study paths and certifications (CCNA, CCNP, CCIE, etc.)
-
-### Cloud Environment (Pick one; study more later.)
-
-* AWS
-* OpenStack
-* Google Cloud
-* Microsoft Azure
-
-## Non-Technical Job Skills
-
-* Communication
-* Writing well
-* Hiring and interviews
-* Negotiating for compensation
-
-## Business and Management Skills
-
-* [Joel on Software](https://www.amazon.com/Joel-Software-Occasionally-Developers-Designers/dp/1590593898)
-* [More Joel On Software](https://www.amazon.com/More-Joel-Software-Occasionally-Developers/dp/1430209879)
-* [Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?crid=62GZK0EBAMWG) The original "you can't get a baby in one month by getting nine women pregnant" book.
-* Managing Humans by Michael Lopp
-
-## Financial Skills
-
-### Personal Finance & Investing
-
-* [A Random Walk Down Wall Street](https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393358380)
-* [The Investor's Manifesto](https://www.amazon.com/Investors-Manifesto-Prosperity-Armageddon-Everything-ebook/dp/B002U3CBY8) and EVERY book by William J. Bernstein.
-* The Millionaire Next Door
-* The Richest Man in Babylon
-
-## Life Skills
-
-* Getting Things Done (GTD)
+A Complete Geek is a professional. A crafts-person. A skilled worker. We do good work, we take pride in our work, we deal respectfully and ethically with our coworkers, and perform our jobs with high ethical standards and competence.

@@ -36,7 +36,66 @@ To the right of "Chip" or "Processor" it will say either "Apple M1 Max" (or Appl
 
 ### On Intel-Based Macs
 
-If you have an Intel-based Mac, you'll go to the [VirtualBox Download Page](https://www.virtualbox.org/wiki/Downloads) and download the package for "macOS / Intel hosts."
+First, we'll need to install the VM software. For Intel-based Macs, we're going to install virtual machine software called VirtualBox. This is the software that "pretends" to be an actual physical computer for the virtual machines running on it. Go to the [VirtualBox download page](https://www.virtualbox.org/wiki/Downloads) and click the "MacOS / Intel hosts" link to download the installer.
+
+Now run that downloaded installer and accept all the default choices.
+
+Once VirtualBox is installed, we'll need to install Vagrant. Vagrant is a virtual machine automation tool that will make it very easy to for us to create virtual machines. Go to the [Vagrant download page](https://developer.hashicorp.com/vagrant/downloads) and scroll to "MacOS." You'll see two choices, "AMD64" or "ARM64." Click the "AMD64" download link to download the installer.
+
+Run the installer and accept all the default choices. Once it's installed, you'll need to open up a terminal window. Start the "Terminal" application from inside the "/Applications/Utilities" folder. You should see a command prompt in a white window.
+
+The prompt itself shows what directory you are in. For instance, when I started Command Prompt, my prompt was "`schof@intelmac ~ %`". The tilde ("~") means I'm in my home directory. Your prompt will be somewhat different. You'll use the following commands to see directory contents and change directories:
+
+* `ls[ENTER]` -- shows you the contents of a directory
+* `cd DIRECTORY_NAME[ENTER]` -- changes to a different directory
+* `cd ..[ENTER]` -- goes up one directory level
+* `mkdir DIRECTORY_NAME[ENTER]` -- creates a directory
+* `pwd[ENTER]` -- print out the full name of the current directory
+
+I decided to keep my virtual machine files in my Documents folder, so I typed "`cd Documents`" and hit ENTER. My prompt changed to be "`schof@intelmac Documents %`" which is how I know it worked.
+
+In the Documents folder I created a directory called "completegeek_vm" and then changed to the completegeek_vm directory:
+
+```bash
+mkdir completegeek_vm
+cd completegeek_vm
+```
+
+You'll know you've done this correctly when your command prompt includes:
+`completegeek_vm`. (Of course, yours will be slightly different depending on your name.) To check that I did everything correctly, I entered the "`pwd`" command to see what directory I am in:
+
+```bash
+schof@intelmac completegeek_vm % pwd
+/Users/schof/Documents/completegeek_vm
+schof@intelmac completegeek_vm %
+```
+
+Now that we're in the correct directory, we'll type the following command (after every command you'll hit [ENTER]) to create a virtual machine:
+
+`vagrant init ubuntu/jammy64`
+
+This should give you a message that "A Vagrantfile has been placed in this directory."
+
+The Vagrantfile is the configuration file for your VM. Now you actually need to create your virtual machine. To do that, you'll type:
+
+`vagrant up`
+
+You'll see some status messages print on your screen. The "Downloading" part may take a while depending on how fast your Internet connection is.
+
+Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory(if necessary), and issue the command "vagrant ssh":
+
+```bash
+cd ~/Documents/completegeek_vm
+vagrant ssh
+```
+
+You should now see a welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`vagrant@ubuntu-jammy:~$`".
+
+To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by typing "`vagrant halt`" and hitting ENTER.
+
+You can start up the VM again any time you want by first making sure you're in the completegeek_vm directory and then typing `vagrant up` again.
+
+Now continue to CHECKPOINT 1 at the bottom of this page.
 
 ### On ARM-based Macs
 

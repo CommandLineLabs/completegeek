@@ -94,8 +94,10 @@ You'll see some status messages print on your screen. The "Downloading" part may
 
 Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory, and issue the command "vagrant ssh":
 
-`cd C:\Users\jms\Documents\completegeek_vm`
-`vagrant ssh`
+```bash
+cd C:\Users\jms\Documents\completegeek_vm
+vagrant ssh
+```
 
 You should now see a welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`vagrant@ubuntu-jammy:~$`".
 

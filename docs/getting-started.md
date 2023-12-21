@@ -40,7 +40,23 @@ If you have an Intel-based Mac, you'll go to the [VirtualBox Download Page](http
 
 ### On ARM-based Macs
 
-If you have an ARM-based Mac... [still working on this]
+If you have an ARM-based Mac, you'll need to install Ubuntu Multipass to get an Ubuntu Linux VM running. Go to the [Multipass download page](https://multipass.run/install) and click the "macOS" link. That will download the installer to your computer. Run the installer and click "Continue" to accept all the default choices.
+
+Now open up a terminal window (start the "Terminal" application from inside the "/Applications/Utilities" folder). You should see a command prompt. Type the following command and hit [ENTER]:
+
+```bash
+multipass launch --name completegeek
+```
+
+You should see progress printing to the terminal window (this may take a while depending on how slow your Internet connection is).
+
+Once that command completes, you'll need to double-click the "Multipass" application in your Applications folder. That will put the Multipass "M" icon in your menu bar at the top of the screen.
+
+Click the M icon and then click "completegeek (running)" and then "Open Shell". This will open up a new terminal window with a green command prompt at the bottom reading "`ubuntu@completegeek:~$`". If it does, you've successfully started the VM and connected to it. To start and stop your VM, click the M icon, then "completegeek" and then either "Start" or "Stop."
+
+Once you've stopped the VM (or any time you want), you can close the white Terminal windows it opened up.
+
+Now continue to CHECKPOINT 1 at the bottom of this page.
 
 ## Setting up a virtual machine on a Windows computer
 
@@ -106,6 +122,8 @@ You should now see a welcome message on the screen, and at the bottom you should
 To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by typing "`vagrant halt`" and hitting ENTER.
 
 You can start up the VM again any time you want by first making sure you're in the completegeek_vm directory and then typing `vagrant up` again.
+
+Now continue to CHECKPOINT 1 at the bottom of this page.
 
 ## CHECKPOINT 1: Verifying that your virtual machine is working properly
 

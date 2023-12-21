@@ -4,16 +4,17 @@
 
 The first thing that we're going to learn involves the Linux command-line. We'll be studying Linux and Unix operating systems as the foundation for everything else that we're learning.
 
-To do that, and to ensure that we have a consistent environment for everyone, we'll be installing a virtual machine on your laptop. That virtual machine will be running Ubuntu Linux. (We'll cover other varieties of Linux and Unix later. For now, we'll focus on Ubuntu.)
+To do that, and to ensure that we have a consistent environment for everyone, we'll be installing a virtual machine on your laptop. That virtual machine will be running Ubuntu Linux. (There are other varieties of Linux and Unix that we'll cover later. For now, we'll focus on Ubuntu.)
 
 What is a virtual machine (VM)? It's a program that runs on your laptop that *pretends* that it's an entire computer. To understand that, we'll need to understand a little bit about the parts a non-virtual computer has.
 
 Your laptop has a few important parts:
 
-* It has a CPU, the thing that actually does all the processing.
-* It has a display, a screen that lets you see what's going on.
-* It has RAM, short-term memory that the CPU uses as kind of a scratch-pad. It gets erased every time you turn off or reboot your computer.
-* It has long-term storage, either a hard drive or an SSD, that provides storage, a place for your CPU to write data, that lasts even when the computer is turned off or rebooted.
+* It has a **CPU**: The thing that actually does all the processing (following instructions that you or someone else wrote)
+* It has a **GPU**: A specialized type of CPU intended to be used for complicated graphics (and now often used for crypto or AI calculations)
+* It has a display: A screen that lets you see what's going on
+* It has RAM: Short-term memory that the CPU uses as kind of a scratch-pad. It gets erased every time you turn off or reboot your computer
+* It has long-term storage, either a hard drive or an SSD: This is a place for your CPU to write data, that lasts even when the computer is turned off or rebooted. It's where programs are installed, or your Word or Excel documents are saved.
 
 A virtual machine pretends that it has all those parts -- it has parts that pretend to be a CPU, pretend to be a display, pretend to be RAM, etc. You can install a brand-new operating system on it (different from what's running on your laptop) and from the point of view of that virtualized operating system, it thinks it's running on a regular computer. It doesn't necessarily know that it's on a VM.
 

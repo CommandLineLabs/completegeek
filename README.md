@@ -25,3 +25,24 @@ Because this is entirely self-paced, you will have to provide your own drive to 
 ## Philosophy
 
 A Complete Geek is a professional. A crafts-person. A skilled worker. We do good work, we take pride in our work, we deal respectfully and ethically with our coworkers, and perform our jobs with high ethical standards and competence.
+
+## Pre-Requisites (What do you need to know?)
+
+* You need a basic knowledge of computers. You should be able to browse to specific websites, search the web, use email, etc.
+* You should be competent in written and spoken English.
+* You must be willing to work your ass off, though you can do it at your own pace.
+* Typing (touch typing, two-finger typing, nose typing, or whatever) with competence and a reasonable rate of speed.
+* Basic competence with either Mac OS or Windows.
+* You must be persistent and tolerate frustration. Like most fields, being smart as hell helps, but it's not required. What **is** required is that you keep trying even when you keep failing. Trying stuff that doesn't work until you finally find a way that does work describes a big chunk of the day-to-day life of a working geek. If you can't handle the frustration of learning, you probably can't handle the frustration of doing the job.
+
+## Requirements (What do you need to have?)
+
+At this time, there's a non-zero amount of money you'll need to spend to participate in this program, although we're trying hard to keep it to a minimum.
+
+The most expensive thing you'll need is a Mac (Apple) or Windows computer. It doesn't have to be a super-recent or powerful one. (If you already have a Linux laptop, you're maybe not the target for this book.)
+
+You'll also (later) need about $5 a month to pay for a virtual server hosted in the cloud. And of course you'll need relatively decent Internet access. (If you can watch videos, your Internet is good enough.)
+
+## Next Steps
+
+If you're ready to proceed, take a look at our [Getting Started](docs/getting-started.md) page.

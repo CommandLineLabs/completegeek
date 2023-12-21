@@ -8,7 +8,7 @@ copyright: Command-Line Labs
 theme: readthedocs
 nav:
   - index.md
-  - requirements.md
+  # - requirements.md
   - getting-started.md
   # - using-linux.md
   # - basic-networking.md

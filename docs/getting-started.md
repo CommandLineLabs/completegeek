@@ -12,9 +12,9 @@ Your laptop has a few important parts:
 
 * It has a **CPU**: The thing that actually does all the processing (following instructions that you or someone else wrote)
 * It has a **GPU**: A specialized type of CPU intended to be used for complicated graphics (and now often used for crypto or AI calculations)
-* It has a display: A screen that lets you see what's going on
-* It has RAM: Short-term memory that the CPU uses as kind of a scratch-pad. It gets erased every time you turn off or reboot your computer
-* It has long-term storage, either a hard drive or an SSD: This is a place for your CPU to write data, that lasts even when the computer is turned off or rebooted. It's where programs are installed, or your Word or Excel documents are saved.
+* It has a **display**: A screen that lets you see what's going on
+* It has **RAM**: Short-term memory that the CPU uses as kind of a scratch-pad. It gets erased every time you turn off or reboot your computer
+* It has **long-term storage**, either a **hard drive** or an **SSD**: This is a place for your CPU to write data, that lasts even when the computer is turned off or rebooted. It's where programs are installed, and your Word or Excel documents are saved.
 
 A virtual machine pretends that it has all those parts -- it has parts that pretend to be a CPU, pretend to be a display, pretend to be RAM, etc. You can install a brand-new operating system on it (different from what's running on your laptop) and from the point of view of that virtualized operating system, it thinks it's running on a regular computer. It doesn't necessarily know that it's on a VM. This provides us an easy and cheap way of accessing a Linux VM. Plus, if you mess something up, it's really easy to delete the VM and start over!
 
@@ -99,6 +99,10 @@ Once that's completed, you've built your first VM! **To connect to it at any tim
 
 You should now see a welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`vagrant@ubuntu-jammy:~$`".
 
+To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by typing "`vagrant halt`" and hitting ENTER.
+
+You can start up the VM again any time you want by first making sure you're in the completegeek_vm directory and then typing `vagrant up` again.
+
 ## CHECKPOINT 1: Verifying that your virtual machine is working properly
 
 Now connect to your VM. (The method you use to connect will be different depending on if you're using Vagrant or a different tool.) Once, connected, you should be able to enter the following commands:
@@ -119,4 +123,8 @@ vagrant@ubuntu-jammy:~$ uptime
 vagrant@ubuntu-jammy:~$
 ```
 
-If your output looks similar to mine, congratulations! You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to Chapter 2. If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.
+If your output looks similar to mine, congratulations!
+
+Now let's exit the VM. Type `exit` and hit ENTER.
+
+Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to Chapter 2. If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.

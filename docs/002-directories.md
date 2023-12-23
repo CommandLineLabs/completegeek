@@ -1,14 +1,14 @@
 # Chapter 2 - Directories
 
-From your using a Mac or Windows computer you should already be familiar with the concept of directories (also known as folders). But to summarize, directories are places where you can store files or other directories, on your computer's hard drive (or SSD). Directories don't give you more space on the hard drive, they just give you tools to organize your files.
+From using a Mac or Windows computer you should already be familiar with the concept of directories (also known as folders). But to summarize, directories are places where you can store files or other directories, on your computer's hard drive (or SSD). Directories don't give you more space on the hard drive, they just give you tools to organize your files.
 
 There are lots of files and folders already on your VM, which are part of the operating system. We'll talk more about operating systems in the next chapter.
 
-For this entire chapter, we'll be working your **home directory.** Your home directory is **your place** to store files on your VM. "Duh," you think. "This is my VM. All of the directories are places to store my files."
+For this entire chapter, we'll be working in your **home directory.** Your home directory is **your place** to store files on your VM. "Duh," you think. "This is my VM. All of the directories are places to store my files."
 
-Yes, but. Linux and Unix were designed as multi-user operating systems, which means that they would have multiple people using them. Each person using the system has their own home directory, which is private to them.
+Yes, but. Unix was designed as multi-user operating systems, which means that they would have multiple people using them. Each person using the system has their own home directory, which is private to them.
 
-You're the only person using this VM, but another advantage of keeping files in your home directory is that you can't mess up the VM itself, like you could if you did things in other directories.
+You're the only person using this VM, but another advantage of keeping files in your home directory is that you can't mess up the VM itself, like you could if you change things in other directories.
 
 The command prompt at the bottom of the screen shows you what directory you're in. If you're using vagrant, the command prompt will be "`vagrant@ubuntu-jammy:~$`". If you're using Multipass, your command prompt will be "`ubuntu@completegeek:~$`". In both cases, the tilde ("~") in the prompt means you're in your home directory. The tilde is a shortcut (short name or alias) to your home directory that works in *most* contexts. (We'll discuss the few where it doesn't work later in this course.) When you change directories, the directory in your command prompt will change as well.
 
@@ -20,7 +20,7 @@ We're going to go over a few commands related to directories in this chapter:
 * mkdir: **M**a**k**e a **dir**ectory. Create a directory.
 * rmdir: **R**e**m**ove a **dir**ectory. Deletes a directory. The directory must be empty first.
 
-We'll also talk about the "`.`" and "`..`" shortcuts.
+We'll also talk about the "`..`" shortcut.
 
 First, let's see what directory we're in using `pwd`.
 
@@ -61,7 +61,7 @@ So we made a directory called "directory_one." Why the underscore? Well, let's t
 * File and directory names are **case sensitive.** This is **very different** from what you're probably used to on Mac or Windows. This means that "Apple.txt" is a **different** file from "apple.txt". We'll explore this later
 * File and directory names can **not** include the following characters:
     * / (forward slash)
-    * > (greater-than)
+    * \> (greater-than)
     * < (less-than)
     * | (pipe symbol, on the same key as the backslash)
     * : (colon)

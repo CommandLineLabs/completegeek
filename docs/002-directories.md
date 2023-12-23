@@ -157,5 +157,6 @@ All the following operations will be done in your home directory.
 1. Take the steps necessary to successfully remove the "trees" directory.
 1. Change to the "carrots" directory. What are the two actions you could take to verify what directory you are in? Do them.
 1. Take the steps necessary to remove the "plants" directory from your home directory.
+1. Why do Unix commands not output success messages?
 
 We do not include answers to the checkpoint questions, but every bit of information you need to successfully complete them is in this chapter. Reread it if you're unable to complete any.

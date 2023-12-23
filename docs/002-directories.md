@@ -1,16 +1,16 @@
 # Chapter 2 - Directories
 
-From using a Mac or Windows computer you should already be familiar with the concept of directories (also known as folders). But to summarize, directories are places where you can store files or other directories, on your computer's hard drive (or SSD). Directories don't give you more space on the hard drive, they just give you tools to organize your files.
+From using a Mac or Windows computer you should already be familiar with the concept of directories (also known as folders). But to summarize, directories are places where you can store files or other directories, on your computer's hard drive (or SSD). Directories don't give you more space on the hard drive or an extra hard drive, they just give you a way to organize your files.
 
 There are lots of files and folders already on your VM, which are part of the operating system. We'll talk more about operating systems in the next chapter.
 
 For this entire chapter, we'll be working in your **home directory.** Your home directory is **your place** to store files on your VM. "Duh," you think. "This is my VM. All of the directories are places to store my files."
 
-Yes, but. Unix was designed as multi-user operating systems, which means that they would have multiple people using them. Each person using the system has their own home directory, which is private to them.
+Yes, but. Unix was designed as a multi-user operating system, which means that Unix machines would have multiple people using them. Each person using the system has their own home directory, which is private to them.
 
-You're the only person using this VM, but another advantage of keeping files in your home directory is that you can't mess up the VM itself, like you could if you change things in other directories.
+You're the only person using this VM, but another advantage of keeping files in your home directory is that you can't mess up the VM itself, like you could if you change things in other directories. Plus it makes it easier for you to find stuff.
 
-The command prompt at the bottom of the screen shows you what directory you're in. If you're using vagrant, the command prompt will be "`vagrant@ubuntu-jammy:~$`". If you're using Multipass, your command prompt will be "`ubuntu@completegeek:~$`". In both cases, the tilde ("~") in the prompt means you're in your home directory. The tilde is a shortcut (short name or alias) to your home directory that works in *most* contexts. (We'll discuss the few where it doesn't work later in this course.) When you change directories, the directory in your command prompt will change as well.
+The command prompt at the bottom of the screen shows you what directory you're in. If you're using vagrant, the command prompt will be "`vagrant@ubuntu-jammy:~$`". If you're using Multipass, your command prompt will be "`ubuntu@completegeek:~$`". In both cases, the tilde ("~") in the prompt means you're in your home directory. The tilde is a shortcut (short name or alias) to your home directory that works in **most** contexts. (We'll discuss the few where it doesn't work later in this course.) When you change directories, the directory in your command prompt will change as well.
 
 We're going to go over a few commands related to directories in this chapter:
 
@@ -19,8 +19,6 @@ We're going to go over a few commands related to directories in this chapter:
 * pwd: Show the **p**resent **w**orking **d**irectory -- the directory that you are currently in
 * mkdir: **M**a**k**e a **dir**ectory. Create a directory.
 * rmdir: **R**e**m**ove a **dir**ectory. Deletes a directory. The directory must be empty first.
-
-We'll also talk about the "`..`" shortcut.
 
 First, let's see what directory we're in using `pwd`.
 
@@ -41,6 +39,8 @@ vagrant@ubuntu-jammy:~$
 ```
 
 This is because we are in the vagrant user's home directory, which is at /home/vagrant. (The directory called "vagrant," which is inside the directory called "home.")
+
+In Unix when we refer to directories inside other directories, we separate them with a slash ("/"). So "`/home/vagrant`" means the vagrant directory inside the home directory. (This is the opposite of Windows, which separates directories with the backslash ("\\").)
 
 Now let's make a directory. (From here on most of the examples will be Multipass, because that's what I primarily use.)
 
@@ -69,7 +69,7 @@ So we made a directory called "directory_one." Why the underscore? Well, let's t
 
 **Guidelines**:
 
-* Despite the vast number of characters, emoji, and other symbols that are, technically, allowed in Unix filenames, we recommend that you use only capital A-Z, lowercase a-z, numbers 0-9, the underscore (_) and the dash (-). You'll eliminate a lot of problems for yourself if you stick to that.
+* Despite the vast number of characters, emoji, and other symbols that are, technically, allowed in Unix filenames, we recommend that you **use only capital A-Z, lowercase a-z, numbers 0-9, the underscore (_) and the dash (-)**. You'll eliminate a lot of problems for yourself if you stick to that.
 * Especially no spaces. Spaces in filenames are allowed, but they cause all kinds of complications. We'll teach you how to handle those complications later, but it's still a good idea to leave out spaces. You can use underscores, dashes, or CamelCase instead of spaces. (CamelCase is capitalizing the first letter of each word instead of having spaces. SupposedlyTheCapitalsInCamelCaseLookLikeTheHumpsOfACamel.)
 
 Now that we've had a long digression about file naming, let's have some more directory practice. We've changed directories and we've created them. And if you're following along, you should now be in "`~/directory_one`". (The directory called "directory_one" inside your home directory.)

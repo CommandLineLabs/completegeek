@@ -54,12 +54,12 @@ ubuntu@completegeek:~/directory_one$ pwd
 ubuntu@completegeek:~/directory_one$
 ```
 
-So we made a directory called "directory_one." Why the underscore? Well, let's talk about some rules and guidelines for choosing file and directory names in Linux.
+So we made a directory called "directory_one." Why the underscore? Well, let's talk about some rules and guidelines for choosing file and directory names in Linux. And in fact, from now on we're going to just say "file names" for simplicity. But you should know that in Unix **everything is a file**, and under the hood, directories are just files that are special. All the rules and guidelines below apply equally to files and directories.
 
 **Rules**:
 
-* File and directory names are **case sensitive.** This is **very different** from what you're probably used to on Mac or Windows. This means that "Apple.txt" is a **different** file from "apple.txt". We'll explore this later
-* File and directory names can **not** include the following characters:
+* File names are **case sensitive.** This is **very different** from what you're probably used to on Mac or Windows. This means that "Apple.txt" is a **different** file from "apple.txt". We'll explore this later
+* File names can **not** include the following characters:
     * / (forward slash)
     * \> (greater-than)
     * < (less-than)
@@ -69,10 +69,10 @@ So we made a directory called "directory_one." Why the underscore? Well, let's t
 
 **Guidelines**:
 
-* Despite the vast number of characters, emoji, and other symbols that are, technically, allowed in Linux filenames, we recommend that you use only capital A-Z, lowercase a-z, numbers 0-9, the underscore (_) and the dash (-). You'll eliminate a lot of problems for yourself if you stick to that.
-* Especially no spaces. Spaces in filenames and directories are allowed, but they cause all kinds of complications. We'll teach you how to handle those complications later, but it's still a good idea to leave out spaces. You can use underscores, dashes, or CamelCase instead of spaces. (CamelCase is capitalizing the first letter of each word instead of having spaces. SupposedlyTheCapitalsInCamelCaseLookLikeTheHumpsOfACamel.)
+* Despite the vast number of characters, emoji, and other symbols that are, technically, allowed in Unix filenames, we recommend that you use only capital A-Z, lowercase a-z, numbers 0-9, the underscore (_) and the dash (-). You'll eliminate a lot of problems for yourself if you stick to that.
+* Especially no spaces. Spaces in filenames are allowed, but they cause all kinds of complications. We'll teach you how to handle those complications later, but it's still a good idea to leave out spaces. You can use underscores, dashes, or CamelCase instead of spaces. (CamelCase is capitalizing the first letter of each word instead of having spaces. SupposedlyTheCapitalsInCamelCaseLookLikeTheHumpsOfACamel.)
 
-Now that we've had a long digression about file and directory naming, let's have some more directory practice. We've changed directories and we've created them. And if you're following along, you should now be in "`~/directory_one`". (The directory called "directory_one" inside your home directory.)
+Now that we've had a long digression about file naming, let's have some more directory practice. We've changed directories and we've created them. And if you're following along, you should now be in "`~/directory_one`". (The directory called "directory_one" inside your home directory.)
 
 We're going to use the "ls" tool to list the contents of the directories that we create. Let's make some more directories! First let's prove to ourselves that directories are case sensitive.
 

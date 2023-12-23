@@ -49,4 +49,10 @@ We'll also link to some books. We'll clearly note which are optional, and which 
 
 ## Next Steps
 
-If you're ready to proceed, take a look at our [Getting Started](docs/getting-started.md) page.
+If you're ready to proceed, take a look at our [Getting Started](docs/001-getting-started.md) page.
+
+## Table of Contents
+
+* [Chapter 1: Getting Started](docs/001-getting-started.md)
+* [Chapter 2: Directories](docs/002-directories.md)
+* [Chapter 3: Operating Systems and History](docs/003-operating-systems-and-history.md)

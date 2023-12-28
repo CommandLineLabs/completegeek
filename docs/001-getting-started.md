@@ -1,5 +1,7 @@
 # Chapter 1: Getting Started
 
+FIXME/TODO: Switch Intel Mac to use Multipass.
+
 ## Introduction
 
 The first thing that we're going to learn involves the Linux command-line. We'll be studying Linux and Unix operating systems as the foundation for everything else that we're learning.
@@ -123,64 +125,37 @@ First, we'll need to install the VM software. For Windows, we're going to instal
 
 Run (Open) the installer, allow it to make changes to your device, and accept all the default choices (say "Yes" or "Next" to everything).
 
-Once VirtualBox is installed, we'll need to install Vagrant. Vagrant is a virtual machine automation tool that will make it very easy to for us to create virtual machines. Go to the [Vagrant download page](https://developer.hashicorp.com/vagrant/downloads) and scroll to "Windows." You'll see two choices, "AMD64" or "i686."
+Once VirtualBox is installed, we'll need to install Multipass. Go to the [Multipass download page](https://multipass.run/install) and click the Windows icon to go the installation instructions. Download Multipass from the supplied link. Double-click the downloaded installer.
 
-AMD64 is for 64-bit computers with 64-bit operating systems, and i686 is for 32-bit computers with 32-bit operating systems. (Don't worry about what that means; we'll cover it later.) **Unless your computer is really old it almost certainly has a 64-bit operating system and computer, so use the AMD64 download link.**
+Click "Yes" on "Do you want to allow this app to make changes to your device?" Then click "Next" and "I Agree." Change the selector on the "Hypervisor" window to "Oracle VM VirtualBox." Either will work, but not all Windows systems are compatible with the "Microsoft Hyper-V" choice. Assuming you've installed VirtualBox following these instructions, it should work on any OS type of Windows 10 or Windows 11. (If you know your computer can run Microsoft Hyper-V, feel free to make that choice.)
 
-If your computer is old, and you're not sure if it is 64-bit or 32-bit, Microsoft [wrote a page with instructions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d) about how to find out.
+On the "Add Multipass to PATH" screen, leave it on the recommended choice and click "Next."
 
-Use whichever download link is appropriate for your system, and run (open) the installer. Click "Next or "Yes" to everything. You'll need to restart your computer after you finish running the installer.
+Click "Next" on the "Choose Install Location" screen.
 
-After your computer reboots, you'll need to run the command prompt. Search for "cmd" and click the "Command Prompt" application.
+On the "Choose Components" screen, don't change anything and click "Install." When it's done, click "Finish."
 
-Once you're in the "Command Prompt" application, you'll see a black screen with white text. This is the Windows version of the Linux command-line prompt. You type commands and hit enter to have your computer do things. All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.
+Now you'll need to run the command prompt. Search for "cmd" and click the "Command Prompt" application.
 
-Our next step is to create our virtual machine files. You'll need to decide where to store them, and then navigate to where you want to keep them.
+Once you're in the "Command Prompt" application, you'll see a black screen with white text. This is the Windows version of the Linux command-line prompt. You type commands and hit [ENTER] to have your computer do things. All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.
 
-The prompt itself shows what directory you are in. For instance, when I started Command Prompt, my prompt was "`C:/Users/jms`". Yours will be different unless your initials are also "JMS." You'll use the following commands to see directory contents and change directories:
+Now you'll see the prompt in the Command Prompt window. My prompt was "`C:/Users/jms`". Yours will be different unless your initials are also "JMS."
 
-* `dir[ENTER]` -- shows you the contents of a directory
-* `cd DIRECTORY_NAME[ENTER]` -- changes to a different directory
-* `cd ..[ENTER]` -- goes up one directory level
-* `mkdir DIRECTORY_NAME[ENTER]` -- creates a directory
+Type the following command:
 
-I decided to keep my virtual machine files in my Documents folder, so I typed "`cd Documents`" and hit ENTER. My prompt changed to be "`C:/Users/jms/Documents`" which is how I know it worked.
+ ```bash
+ multipass launch --name completegeek
+ ```
 
-In the Documents folder I created a directory called "completegeek_vm" and then changed to the completegeek_vm directory:
+Multipass should start printing some information to the Command Prompt about "Retrieving image." How long that takes depends on the speed of your Internet connection. It will then start the "completegeek" image. You'll know it's done when you see the prompt again at the bottom of the screen.
 
-```bash
-mkdir completegeek_vm
-cd completegeek_vm
-```
+Now there should be a Multipass "M" icon in the system tray at the bottom-right of the screen. Right-click that and select "completegeek (running)" and then "Open Shell."
 
-You'll know you've done this correctly when your command prompt says:
-`C:\Users\jms\Documents\completegeek_vm`
-(Of course, yours will be slightly different depending on your name.)
+Then you should see a new window open up that shows an Ubuntu welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`ubuntu@completegeek:~$`".
 
-Now we'll type the following command (after every command you'll hit [ENTER]) to create a virtual machine:
+To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by right-clicking the M icon again in the system tray and selecting "completegeek (running)" and then "Stop."
 
-`vagrant init ubuntu/jammy64`
-
-This should give you a message that "A Vagrantfile has been placed in this directory."
-
-The Vagrantfile is the configuration file for your VM. Now you actually need to create your virtual machine. To do that, you'll type:
-
-`vagrant up`
-
-You'll see some status messages print on your screen. The "Downloading" part may take a while depending on how fast your Internet connection is.
-
-Once that's completed, you've built your first VM! **To connect to it at any time in the future,** you'll change directories to your completegeek_vm directory(if necessary), and issue the command "vagrant ssh":
-
-```bash
-cd C:\Users\jms\Documents\completegeek_vm
-vagrant ssh
-```
-
-You should now see a welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`vagrant@ubuntu-jammy:~$`".
-
-To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by typing "`vagrant halt`" and hitting ENTER.
-
-You can start up the VM again any time you want by first making sure you're in the completegeek_vm directory and then typing `vagrant up` again.
+You can start up the VM again any time you want by right-clicking the "M" icon in the system tray, clicking "completegeek" and then clicking "Start."
 
 Now continue to CHECKPOINT 1 at the bottom of this page.
 

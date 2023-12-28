@@ -183,4 +183,4 @@ If your output looks similar to mine, congratulations!
 
 Now let's exit the VM. Type `exit` and hit ENTER.
 
-Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to Chapter 2. If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.
+Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to [Chapter 2](002-directories.md). If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.

@@ -4,6 +4,8 @@
 
 The first major subject that we're going to learn involves the Linux command-line. We'll be studying Linux and Unix operating systems as the foundation for everything else that we're learning in this course.
 
+The reason that we're taking that approach is because Linux and Unix computers are the underpinning for almost everything that happens in the Internet. Facebook runs on Linux. Google runs on Linux. Your bank and insurance company run (at least partially) on Linux. It's the most common server operating system by a significant margin.
+
 To do that, and to ensure that we have a consistent environment for all the students, we'll be installing a virtual machine on your laptop. That virtual machine will be running a type of Linux called "Ubuntu Server." (There are other varieties of Linux and Unix that we'll cover later. For now, we'll focus on Ubuntu.)
 
 What is a virtual machine (VM)? It's a program that runs on your laptop that *pretends* that it's an entire computer. To understand that, we'll need to understand a little bit about the parts a non-virtual computer has.

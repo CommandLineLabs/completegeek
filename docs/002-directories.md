@@ -14,7 +14,7 @@ You're the only person using this VM, but another advantage of keeping files in 
 
 ## Commands
 
-The command prompt at the bottom of the screen shows you what directory you're in. If you're using vagrant, the command prompt will be "`vagrant@ubuntu-jammy:~$`". If you're using Multipass, your command prompt will be "`ubuntu@completegeek:~$`". In both cases, the tilde ("~") in the prompt means you're in your home directory. The tilde is a shortcut (short name or alias) to your home directory that works in **most** contexts. (We'll discuss the few where it doesn't work later in this course.) When you change directories, the directory in your command prompt will change as well.
+The command prompt at the bottom of the screen shows you what directory you're in. Your command prompt will be "`ubuntu@completegeek:~$`". The tilde ("~") in the prompt means you're in your home directory. The tilde is a shortcut (short name or alias) to your home directory that works in **most** contexts. (We'll discuss the few where it doesn't work later in this course.) When you change directories, the directory in your command prompt will change as well.
 
 We're going to go over a few commands related to directories in this chapter:
 
@@ -34,17 +34,7 @@ ubuntu@completegeek:~$
 
 We're in the ubuntu user's home directory, which is at /home/ubuntu. (The directory called "ubuntu," which is inside the directory called "home.")
 
-If you're using Vagrant instead of Multipass, your output will look like this:
-
-```bash
-vagrant@ubuntu-jammy:~$ pwd
-/home/vagrant
-vagrant@ubuntu-jammy:~$
-```
-
-This is because we are in the vagrant user's home directory, which is at /home/vagrant. (The directory called "vagrant," which is inside the directory called "home.")
-
-In Unix when we refer to directories inside other directories, we separate them with a slash ("/"). So "`/home/vagrant`" means the vagrant directory inside the home directory. (This is the opposite of Windows, which separates directories with the backslash ("\\").)
+In Unix when we refer to directories inside other directories, we separate them with a slash ("/"). So "`/home/ubuntu`" means the ubuntu directory inside the home directory. (This is the opposite of Windows, which separates directories with the backslash ("\\").)
 
 Now let's make a directory. (From here on most of the examples will be Multipass, because that's what I primarily use.)
 

@@ -93,7 +93,7 @@ Did you catch the new thing I threw in there? Yep, it's the "`..`" shortcut! The
 
 If you're in the "`/home/ubuntu/directory_one/Apples`" directory, typing "`cd ..`" will take you to the "`/home/ubuntu/directory_one`" directory. If you're in "`/home/ubuntu/directory_one`", typing "`cd ..`" will take you to your home directory.
 
-Now let's clean up some of what we've created. Change to your home directory (either "`/home/ubuntu`" or "`/home/vagrant`") and type "`rmdir directory_one`". It didn't work! Why?
+Now let's clean up some of what we've created. Change to your home directory ("`/home/ubuntu`") and type "`rmdir directory_one`". It didn't work! Why?
 
 ```bash
 ubuntu@completegeek:~$ rmdir directory_one

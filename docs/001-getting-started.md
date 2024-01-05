@@ -1,5 +1,7 @@
 # Chapter 1: Getting Started
 
+FIXME/TODO: Include instructions for deleting Multipass VMs.
+
 ## Introduction
 
 The first major subject that we're going to learn involves the Linux command-line. We'll be studying Linux and Unix operating systems as the foundation for everything else that we're learning in this course.

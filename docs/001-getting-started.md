@@ -1,7 +1,5 @@
 # Chapter 1: Getting Started
 
-FIXME/TODO: Include instructions for deleting Multipass VMs.
-
 ## Introduction
 
 The first major subject that we're going to learn involves the Linux command-line. We'll be studying Linux and Unix operating systems as the foundation for everything else that we're learning in this course.
@@ -30,21 +28,52 @@ What follows is instructions for setting up a VM on both Windows and MacOS. You'
 
 ## Setting up a virtual machine on a MacOS (Apple) computer
 
-You'll need to install Ubuntu Multipass to get an Ubuntu Linux VM running on your Mac system. Go to the [Multipass download page](https://multipass.run/install) and click the "macOS" link. That will download the installer to your computer. (The installer supports both Intel and Arm Macs. If you don't know what that means, don't worry about it.) Run the installer and click "Continue" to accept all the default choices.
+You'll need to install Ubuntu Multipass to get an Ubuntu Linux VM running on your Mac system. Go to the [Multipass download page](https://multipass.run/install) and click the "macOS" link. That will download the installer to your computer. Run the installer and click "Continue" to accept all the default choices.
 
-Now open up a terminal window (start the "Terminal" application from inside the "/Applications/Utilities" folder). You should see a command prompt. Type the following command and hit [ENTER]:
+Now open up a terminal window (start the "Terminal" application from inside the "/Applications/Utilities" folder). You should see a command prompt, something like "schof@testmac ~ %". (Your mac username, then "@", then the name of your your mac, then " ~ %".) This is the MacOS command prompt. You type commands and hit [ENTER] to have your computer do things. All of this will make a lot more sense once we cover the Linux command-line, but unfortunately we kind of have to dump you in the deep end right now to get things going.
+
+Type the following command and hit [ENTER]:
 
 ```bash
 multipass launch --name completegeek
 ```
 
+This will create the completegeek Ubuntu VM.
+
 You should see progress printing to the terminal window (this may take a while depending on how slow your Internet connection is).
 
-Once that command completes, (once you see the prompt at the bottom of the terminal window again) you'll need to double-click the "Multipass" application in your Applications folder. That will put the Multipass "M" icon in your menu bar at the top of the screen.
+Multipass should start printing some information to the Command Prompt about "Retrieving image." How long that takes depends on the speed of your Internet connection. It will then start the "completegeek" image. You'll know it's done when you see the prompt again at the bottom of the screen.
 
-Click the M icon and then click "completegeek (running)" and then "Open Shell". This will open up a new terminal window with a green command prompt at the bottom reading "`ubuntu@completegeek:~$`". If it does, you've successfully started the VM and connected to it. To start and stop your VM, click the M icon, then "completegeek" and then either "Start" or "Stop."
+Next you'll need to double-click the "Multipass" application in your Applications folder. That will put the Multipass "M" icon in your menu bar at the top of the screen.
 
-Once you've stopped the VM (or any time you want), you can close the white Terminal windows it opened up.
+Click the M icon and then click "completegeek (running)" and then "Open Shell". This will open up a new terminal window with a green command prompt at the bottom reading "`ubuntu@completegeek:~$`". If it does, you've successfully started the VM and connected to it. You can also do that multiple times to open up multiple shells to the same VM.
+
+To exit the VM, type "`exit`" and hit ENTER. You can then open another terminal window to the VM by clicking the M icon again.
+
+To shutdown your VM, at the "`ubuntu@completegeek`" command prompt, enter the following command:
+
+```bash
+sudo shutdown -h now
+```
+
+Once you've stopped the VM (or really, any time you want), you can close the white Terminal window it opened up.
+
+To start your VM in the future, click the M icon, then "completegeek" and then "Start."
+
+To delete your VM entirely (for instance if you've messed it up or you're not sure where you got to in a series of commands and want a fresh start) then you'll need to go to the terminal shell (the same place where you typed in "`multipass launch...`"), **NOT** the shell you get to from the Multipass "Open Shell"  menu item. Note that the command prompt should **NOT** say "ubuntu@completegeek," it should say your name and the name of your computer.
+
+In that terminal, you'll type:
+
+```bash
+multipass delete completegeek
+multipass purge
+```
+
+To create the completegeek VM again after deleting it, you'll use the launch command again. Open up the terminal window for your laptop (the prompt should show you that you're on your laptop) and type:
+
+```bash
+multipass launch --name completegeek
+```
 
 Now continue to CHECKPOINT 1 at the bottom of this page.
 
@@ -56,7 +85,7 @@ Run (Open) the installer, allow it to make changes to your device, and accept al
 
 Once VirtualBox is installed, we'll need to install Multipass. Go to the [Multipass download page](https://multipass.run/install) and click the Windows icon to go the installation instructions. Download Multipass from the supplied link. Double-click the downloaded installer.
 
-Click "Yes" on "Do you want to allow this app to make changes to your device?" Then click "Next" and "I Agree." Change the selector on the "Hypervisor" window to "Oracle VM VirtualBox." Either will work, but not all Windows systems are compatible with the "Microsoft Hyper-V" choice. Assuming you've installed VirtualBox following these instructions, it should work on any OS type of Windows 10 or Windows 11. (If you know your computer can run Microsoft Hyper-V, feel free to make that choice.)
+Click "Yes" on "Do you want to allow this app to make changes to your device?" Then click "Next" and "I Agree." Change the selector on the "Hypervisor" window to "Oracle VM VirtualBox." Either choice will work, but not all Windows systems are compatible with the "Microsoft Hyper-V" choice. Assuming you've installed VirtualBox following these instructions, it should work on any OS type of Windows 10 or Windows 11. (If you know your computer can run Microsoft Hyper-V and Hyper-V is not grayed-out, feel free to pick it.)
 
 On the "Add Multipass to PATH" screen, leave it on the recommended choice and click "Next."
 
@@ -76,40 +105,67 @@ Type the following command:
  multipass launch --name completegeek
  ```
 
+This will create the completegeek Ubuntu VM.
+
 Multipass should start printing some information to the Command Prompt about "Retrieving image." How long that takes depends on the speed of your Internet connection. It will then start the "completegeek" image. You'll know it's done when you see the prompt again at the bottom of the screen.
 
 Now there should be a Multipass "M" icon in the system tray at the bottom-right of the screen. Right-click that and select "completegeek (running)" and then "Open Shell."
 
-Then you should see a new window open up that shows an Ubuntu welcome message on the screen, and at the bottom you should see a new command-prompt, in green, that says, "`ubuntu@completegeek:~$`".
+This will open up a new terminal window with a green command prompt at the bottom reading "`ubuntu@completegeek:~$`". If it does, you've successfully started the VM and connected to it. You can also do that multiple times to open up multiple shells to the same VM.
 
-To exit the VM, type "`exit`" and hit ENTER. After you've done that, you can shut down the VM by right-clicking the M icon again in the system tray and selecting "completegeek (running)" and then "Stop."
+To exit the VM, type "`exit`" and hit ENTER. You can then open another terminal window to the VM by clicking the M icon again.
+
+To shutdown your VM, at the "`ubuntu@completegeek`" command prompt, enter the following command:
+
+```bash
+sudo shutdown -h now
+```
 
 You can start up the VM again any time you want by right-clicking the "M" icon in the system tray, clicking "completegeek" and then clicking "Start."
+
+To delete your VM entirely (for instance if you've messed it up or you're not sure where you got to in a series of commands and want a fresh start) then you'll need to go to the Command Prompt (the same place where you typed in "`multipass launch...`"), **NOT** the shell you get to from the Multipass "Open Shell"  menu item. Note that the command prompt should **NOT** say "ubuntu@completegeek," it should say "`C:/Users/jms`" or something similar.
+
+In that terminal, you'll type:
+
+```bash
+multipass delete completegeek
+multipass purge
+```
+
+To create the completegeek VM again after deleting it, you'll use the launch command again. Open up the terminal window for your laptop (the prompt should show you that you're on your laptop) and type:
+
+```bash
+multipass launch --name completegeek
+```
 
 Now continue to CHECKPOINT 1 at the bottom of this page.
 
 ## CHECKPOINT 1: Verifying that your virtual machine is working properly
 
-Now connect to your VM. (The method you use to connect will be different depending on if you're using Vagrant or a different tool.) Once, connected, you should be able to enter the following commands:
+Now connect to your VM. Once connected, you should be able to enter the following commands:
 
-* `whoami` -- should show your user name (vagrant or ubuntu)
+* `whoami` -- should show your user name (ubuntu)
 * `date` -- should show the current date and time (timezone will be UTC, not your local timezone)
 * `uptime` -- should show the current time, and the number of minutes since you turned the VM on, as well as the number of users currently logged in (1) and the load average.
 
 Here's an example of what that looked like for me:
 
 ```bash
-vagrant@ubuntu-jammy:~$ whoami
-vagrant
-vagrant@ubuntu-jammy:~$ date
+ubuntu@completegeek:~$ whoami
+ubuntu
+ubuntu@completegeek:~$ date
 Thu Dec 21 19:54:49 UTC 2023
-vagrant@ubuntu-jammy:~$ uptime
+ubuntu@completegeek:~$ uptime
  19:55:18 up 6 min,  1 user,  load average: 0.01, 0.18, 0.12
-vagrant@ubuntu-jammy:~$
+ubuntu@completegeek:~$
 ```
 
 If your output looks similar to mine, congratulations!
 
 Now let's exit the VM. Type `exit` and hit ENTER.
+
+Now delete and purge the completegeek VM. You will probably mess up your VM in the future, and you'll need to know how to get a fresh start.
+
+Once you've deleted and purged the completegeek VM, create a new one and connect to it. Verify that it's working.
 
 Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to [Chapter 2](002-directories.md). If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.

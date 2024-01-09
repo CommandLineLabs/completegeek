@@ -1,18 +1,11 @@
-# Complete Geek Master Outline
+# Complete Geek Guide Master Outline
 
-## Introduction -- DONE
+## Volume 1: Linux, the Command-Line, and BASH Scripting
 
-## Installing a VM on  your laptop -- DONE
-
-## Chapter 3
-
-Let's learn about making directories, changing directories, seeing what directory you're in, and removing directories.
-
-## Chapter x -- Why Linux? / history of Linux/Unix
-
-The knowledge and skills don't go stale.
-* Linux/unix culture and history
-Individual parts of it were designed, but the whole came together organically. THis is why lots of stuff isn't consistent and doesn't make sense.
+* [Introduction](../README.md)
+* [Chapter 1: Getting Started](./001-getting-started.md)
+* [Chapter 2: Making, Removing, and Changing Directories](./002-directories.md)
+* [Chapter 3: Linux History, Philosophy, and Benefits](./003-operating-systems-and-history.md)
 
 ## Chapter x
 
@@ -34,8 +27,6 @@ Let's learn about making files and looking at directory entries.
 * rm (the buzzsaw of unix)
     * Use the "everyone who uses a table saw long enough loses a finger" analogy for rm.
 
-
-
 ## Chapter 8
 
 Let's learn about permissions and ownership -- how to read them, how to set them. Numeric and Symbolic.
@@ -44,7 +35,6 @@ Let's learn about permissions and ownership -- how to read them, how to set them
 
 Nano is for newbs. Let's learn some vim.
 Why you need to know vim (it's everywhere)
-
 
 ## Chapter XX -- Everything is a file
 
@@ -60,8 +50,6 @@ Why you need to know vim (it's everywhere)
 * Sticky
 
 ## Hard links and soft links
-
-
 
 ## Processes
 
@@ -87,32 +75,32 @@ etc.
 
 ## Sed and AWK
 
+## Regular Expressions
+
 ## One-liners you should remember or keep in a text file so you can cut and paste easily
 
 * Remove empty directories under the current directory
 * Infinite loops
 
-
-
-## simple Bash Scriping
+## simple Bash Scripting
 
 * Shebang line
 * Making scripts executable
 * if then else statements
 * Exit statements and return codes
+* Different Shells -- bash vs sh vs zsh, etc
+* Variables and quoting in shells
+* conditional execution and loops
+* grouping commands
+* aliases and functions
 
 ## Advanced bash scripting
 
 Prompting for input
 
-
-
-
 ## Dotfiles
 
-
-## Different Shells -- bash vs sh vs zsh, etc.
-
+## Volume 2: Websites and Networking
 
 ## Chapter x -- Creating a Droplet
 
@@ -126,11 +114,6 @@ If you know what you're doing you can create a virtual machine on any service, o
 
 Opening the terminal and SSHing to your droplet
 Now that you know about directories, files, and permissions, let's set up SSH Key login instead of password login.
-
-
-
-
-
 
 ## Technical Skills Future Outline
 

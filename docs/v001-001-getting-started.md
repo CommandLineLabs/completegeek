@@ -168,4 +168,4 @@ Now delete and purge the completegeek VM. You will probably mess up your VM in t
 
 Once you've deleted and purged the completegeek VM, create a new one and connect to it. Verify that it's working.
 
-Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to [Chapter 2](002-directories.md). If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.
+Now shut down the VM. You've successfully created a VM, connected to it, and run some commands! You've passed Checkpoint 1. Go ahead and move on to [Chapter 2](v001-002-directories.md). If you didn't pass the checkpoint, check your work or ask questions in the discussion group or in office hours.

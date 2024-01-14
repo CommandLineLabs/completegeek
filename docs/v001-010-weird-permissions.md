@@ -1,0 +1,3 @@
+* SetUID
+* SetGID
+* Sticky

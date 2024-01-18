@@ -45,14 +45,12 @@ The most expensive thing you'll need is a Mac (Apple) or Windows computer. It do
 
 You'll also (later) need about $5 a month to pay for a virtual server hosted in the cloud. And of course you'll need relatively decent Internet access. (If you can watch videos, your Internet is good enough.)
 
-We'll also link to some books. We'll clearly note which are optional, and which are required. Unfortunately computer books are expensive, so this will probably be the second most expensive part of this course after your laptop itself, although they may be available at librarys or other low-cost sources.
+We'll also link to some books. We'll clearly note which are optional, and which are required. Unfortunately computer books are expensive, so this will probably be the second most expensive part of this course after your laptop itself, although they may be available at libraries or other low-cost sources.
 
 ## Next Steps
 
-If you're ready to proceed, take a look at our [Getting Started](docs/v001-001-getting-started.md) page.
+If you're ready to proceed, take a look at our [Getting Started](docs/volume-001/v001-001-getting-started.md) page.
 
-## Table of Contents
+## The Whole Shebang
 
-* [Chapter 1: Getting Started](docs/v001-001-getting-started.md)
-* [Chapter 2: Directories](docs/v001-002-directories.md)
-* [Chapter 3: Operating Systems and History](docs/v001-003-operating-systems-and-history.md)
+To see the structure of the entire course, along with links to individual chapters, check out the [Master Outline](./docs/master_outline.md).

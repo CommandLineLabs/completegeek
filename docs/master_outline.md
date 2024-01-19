@@ -1,5 +1,9 @@
 # Complete Geek Guide Master Outline
 
+A check-mark (√) means that this chapter was edited or completed during the current round of editing/writing.
+
+At the current (January 2024) stage, no check-mark means it's probably gibberish.
+
 ## Volume 1: Linux, the Command-Line, and BASH Scripting
 
 * [√ Introduction](../README.md)
@@ -25,7 +29,14 @@
 * [Chapter 20: Advanced BASH Scripting](./volume-001/v001-020-advanced-bash-scripting.md)
 * [Chapter 21: Dotfiles](./021-dotfiles.md)
 
-## Volume 2: Websites and Networking
+## Volume 5: Version Control
+
+* Brief history of version control from vcs to svn to git and how we created decentralized version control with git and then re-centralized it with GitHub.
+* Git.
+* Github.
+* Writing good commit messages and good pull request messages
+
+## Volume 2: Websites and Basic Networking
 
 ### Chapter x -- Creating a Droplet
 
@@ -35,10 +46,21 @@ If you know what you're doing you can create a virtual machine on any service, o
 
 ... including the basics of strong passwords and why you should have strong passwords
 
-### Chapter x
-
 Opening the terminal and SSHing to your droplet
 Now that you know about directories, files, and permissions, let's set up SSH Key login instead of password login.
+
+## Volume 7:  Open Source Concepts
+
+## Volume 10: Advanced Networking
+
+* You must have an understanding of basic networking, including (incomplete and in no particular order): DHCP, DNS, NAT, network troubleshooting tools and methodology, routing, etc. You should understand what's actually going on in your home router / access point.
+* There is almost no limit to how deeply you can study networking. Whether or not you make networking your career, getting better at networking will make you better at almost every technical field.
+* You can self-study or there are are clearly-defined and widely-recognized study paths and certifications (CCNA, CCNP, CCIE, etc.)
+
+## Volume 9: Configuration Management
+
+* Ansible
+* Puppet
 
 ## Volume 3: System Administration / Automation / DevOps / SRE
 
@@ -52,13 +74,6 @@ Now that you know about directories, files, and permissions, let's set up SSH Ke
 * Agile
 * etc.
 
-## Volume 5: Version Control
-
-* Brief history of version control from vcs to svn to git and how we created decentralized version control with git and then re-centralized it with GitHub.
-* Git.
-* Github.
-* Writing good commit messages and good pull request messages
-
 ## Volume 6: Security and Encryption
 
 * Basics of security on the desktop
@@ -70,24 +85,11 @@ Now that you know about directories, files, and permissions, let's set up SSH Ke
 * Basics of setting up a secure Windows server (if studying Windows)
 * FIXME(schof): This can go a lot deeper, both on technical issues and on security as a career.
 
-## Volume 7:  Open Source Concepts
-
 ## Volume 8:  Technical Writing
 
 * Writing Documentation
     * Documentation is not something you do AFTER you finish the job. Documentation is PART of finishing the job.
 * Writing good comments
-
-## Volume 9: Configuration Management
-
-* Ansible
-* Puppet
-
-## Volume 10:  Networking
-
-* You must have an understanding of basic networking, including (incomplete and in no particular order): DHCP, DNS, NAT, network troubleshooting tools and methodology, routing, etc. You should understand what's actually going on in your home router / access point.
-* There is almost no limit to how deeply you can study networking. Whether or not you make networking your career, getting better at networking will make you better at almost every technical field.
-* You can self-study or there are are clearly-defined and widely-recognized study paths and certifications (CCNA, CCNP, CCIE, etc.)
 
 ## Volume 11:  Cloud Environment (Pick one; study more later.)
 
@@ -112,13 +114,7 @@ Now that you know about directories, files, and permissions, let's set up SSH Ke
 
 ## Volume 14: Financial Skills
 
-[√ Chapter 001: The Basics](./volume-014/introduction.md)
-[√ Chapter 002: Track Income and Expenses](./volume-014/track-income-and-expenses.md)
-[Chapter 003: Increase Savings Rate](./volume-014/increase-savings-rate.md)
-[√ Chapter 004: Essential Responsabilities](./volume-014/essential-responsibilities.md)
-[Chapter 005: Pay Off Bad Debt](./volume-014/pay-off-bad-debt.md)
-[Chapter 006: Manage Your Investments](./volume-014/how-to-invest.md)
-[Chapter 007: Further Reading](./volume-014/further-reading.md)
+[√ Introduction](./volume-014/introduction.md) (Contains links to the remaining chapters.)
 
 ## Volume 15: Life Skills
 

@@ -12,7 +12,7 @@ The advice we give here should be about as controversial as a doctor telling you
 * [Increase Savings Rate](./increase-savings-rate.md)
 * [Pay Off Bad Debt](./pay-off-bad-debt.md)
 * [Max Out Retirement Accounts](./max-out-retirement-accounts.md)
+* [How To Lose Money Investing](./how-to-lose-money-investing.md)
 * [How To Invest](./how-to-invest.md)
-* [How Not To Invest](./how-not-to-invest.md)
 * [More Details on Investing](./investing-more-details.md)
 * [Further Reading](./further-reading.md)

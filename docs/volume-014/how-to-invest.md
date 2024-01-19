@@ -1,10 +1,10 @@
 # How To Invest
 
-FIXME/TODO: Add info about rebalancing.
-FIXME/TODO: Add info about balancing between account types (taxable and non-taxable).
-FIXME/TODO: Add guidance on selecting the percentage of your portfolio in bonds.
-FIXME/TODO: Add more information about factors and tilting towards certain factors.
-FIXME/TODO: Explain what stocks are and what bonds are
+* FIXME/TODO: Add info about rebalancing.
+* FIXME/TODO: Add info about balancing between account types (taxable and non-taxable).
+* FIXME/TODO: Add guidance on selecting the percentage of your portfolio in bonds.
+* FIXME/TODO: Add more information about factors and tilting towards certain factors.
+* FIXME/TODO: Explain what stocks are and what bonds are
 
 Asset allocation is the idea that, by combining different classes of
 assets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at the

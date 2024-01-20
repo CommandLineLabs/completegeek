@@ -70,6 +70,7 @@ Short options can be joined together. You don't have to write `-c -a`, you can j
 
 Long options have two dashes in front of them so they can be distinguished from short options that are joined together.
 
+-----------------------------
 Reading man pages
 
 Man page sections

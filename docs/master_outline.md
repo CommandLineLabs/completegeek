@@ -115,17 +115,17 @@ Now that you know about directories, files, and permissions, let's set up SSH Ke
 
 ## Volume 14: Financial Skills
 
-* [√ Introduction](./volume-014/introduction.md)
-* [√ Track Income and Expenses](./volume-014/track-income-and-expenses.md)
-* [√ Essential Responsibilities](./volume-014/essential-responsibilities.md)
-* [Increase Savings Rate](./volume-014/increase-savings-rate.md)
-* [Pay Off Bad Debt](./volume-014/pay-off-bad-debt.md)
-* [How Credit Works And How To Improve Yours](./volume-014/how-credit-works.md)
-* [Max Out Retirement Accounts](./volume-014/max-out-retirement-accounts.md)
-* [How To Lose Money Investing](./volume-014/how-to-lose-money-investing.md)
-* [How To Invest](./volume-014/how-to-invest.md)
-* [More Details on Investing](./volume-014/investing-more-details.md)
-* [Further Reading](./volume-014/further-reading.md)
+* [√ Introduction](./financial-skills/introduction.md)
+* [√ Track Income and Expenses](./financial-skills/track-income-and-expenses.md)
+* [√ Essential Responsibilities](./financial-skills/essential-responsibilities.md)
+* [Increase Savings Rate](./financial-skills/increase-savings-rate.md)
+* [Pay Off Bad Debt](./financial-skills/pay-off-bad-debt.md)
+* [How Credit Works And How To Improve Yours](./financial-skills/how-credit-works.md)
+* [Max Out Retirement Accounts](./financial-skills/max-out-retirement-accounts.md)
+* [How To Lose Money Investing](./financial-skills/how-to-lose-money-investing.md)
+* [How To Invest](./financial-skills/how-to-invest.md)
+* [More Details on Investing](./financial-skills/investing-more-details.md)
+* [Further Reading](./financial-skills/further-reading.md)
 
 ## Volume 15: Life Skills
 

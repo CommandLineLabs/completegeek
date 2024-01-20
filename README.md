@@ -49,7 +49,7 @@ We'll also link to some books. We'll clearly note which are optional, and which 
 
 ## Next Steps
 
-If you're ready to proceed, take a look at our [Getting Started](docs/volume-001/v001-001-getting-started.md) page.
+If you're ready to proceed, take a look at our [Getting Started](docs/linux-basics/getting-started.md) page.
 
 ## The Whole Shebang
 

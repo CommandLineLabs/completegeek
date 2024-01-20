@@ -4,29 +4,30 @@ A check-mark (√) means that this chapter was edited or completed during the cu
 
 At the current (January 2024) stage, no check-mark means it's probably gibberish.
 
+* [√ Introduction](../README.md)
+
 ## Volume 1: Linux, the Command-Line, and BASH Scripting
 
-* [√ Introduction](../README.md)
-* [√ Getting Started](./volume-001/v001-001-getting-started.md)
-* [√ Making, Removing, and Changing Directories](./volume-001/v001-002-directories.md)
-* [√ Linux History, Philosophy, and Benefits](./volume-001/v001-003-operating-systems-and-history.md)
-* [How to get help.](./volume-001/v001-004-getting-help.md)
-* [Absolute versus relative paths](./volume-001/v001-005-absolute-vs-relative-paths.md)
-* [File and directory operations](./volume-001/v001-006-file-and-directory-operations.md)
-* [Permissions and Ownership](./volume-001/v001-007-permissions-and-ownership.md)
-* [Basic VI](./volume-001/v001-008-basic-vim.md)
-* [Everything is a File](./volume-001/v001-009-everything-is-a-file.md)
-* [Weird Permissions](./volume-001/v001-010-weird-permissions.md)
-* [Hard and Soft Links](./011-hard-and-soft-links.md)
-* [Processes](./volume-001/v001-012-processes.md)
-* [Redirection and Pipes](./volume-001/v001-013-redirection-and-pipes.md)
-* [Complex Pipelines](./volume-001/v001-014-complex-pipelines.md)
-* [Find, a love story](./015-find-a-love-story.md)
-* [Sed and AWK](./016-sed-and-awk.md)
-* [Regular Expressions](./017-regular-expressions.md)
-* [One-Liners To Remember](./volume-001/v001-018-one-liners-to-rememeber.md)
-* [Simple BASH Scripting](./volume-001/v001-019-simple-bash-scripting.md)
-* [Advanced BASH Scripting](./volume-001/v001-020-advanced-bash-scripting.md)
+* [√ Getting Started](./linux-basics/getting-started.md)
+* [√ Making, Removing, and Changing Directories](./linux-basics/directories.md)
+* [√ Linux History, Philosophy, and Benefits](./linux-basics/operating-systems-and-history.md)
+* [How to get help.](./linux-basics/getting-help.md)
+* [Absolute versus relative paths](./linux-basics/absolute-vs-relative-paths.md)
+* [File and directory operations](./linux-basics/file-and-directory-operations.md)
+* [Permissions and Ownership](./linux-basics/permissions-and-ownership.md)
+* [Basic VI](./linux-basics/basic-vim.md)
+* [Everything is a File](./linux-basics/everything-is-a-file.md)
+* [Weird Permissions](./linux-basics/weird-permissions.md)
+* [Hard and Soft Links](./linux-basics/hard-and-soft-links.md)
+* [Processes](./linux-basics/processes.md)
+* [Redirection and Pipes](./linux-basics/redirection-and-pipes.md)
+* [Complex Pipelines](./linux-basics/complex-pipelines.md)
+* [Find, a love story](./linux-basics/find-a-love-story.md)
+* [Sed and AWK](./linux-basics/sed-and-awk.md)
+* [Regular Expressions](./linux-basics/regular-expressions.md)
+* [One-Liners To Remember](./linux-basics/one-liners-to-rememeber.md)
+* [Simple BASH Scripting](./linux-basics/simple-bash-scripting.md)
+* [Advanced BASH Scripting](./linux-basics/advanced-bash-scripting.md)
 * [Dotfiles](./021-dotfiles.md)
 
 ## Volume 5: Version Control
@@ -114,7 +115,17 @@ Now that you know about directories, files, and permissions, let's set up SSH Ke
 
 ## Volume 14: Financial Skills
 
-[√ Introduction](./volume-014/introduction.md) (Contains links to the remaining chapters.)
+* [√ Introduction](./volume-014/introduction.md)
+* [√ Track Income and Expenses](./volume-014/track-income-and-expenses.md)
+* [√ Essential Responsibilities](./volume-014/essential-responsibilities.md)
+* [Increase Savings Rate](./volume-014/increase-savings-rate.md)
+* [Pay Off Bad Debt](./volume-014/pay-off-bad-debt.md)
+* [How Credit Works And How To Improve Yours](./volume-014/how-credit-works.md)
+* [Max Out Retirement Accounts](./volume-014/max-out-retirement-accounts.md)
+* [How To Lose Money Investing](./volume-014/how-to-lose-money-investing.md)
+* [How To Invest](./volume-014/how-to-invest.md)
+* [More Details on Investing](./volume-014/investing-more-details.md)
+* [Further Reading](./volume-014/further-reading.md)
 
 ## Volume 15: Life Skills
 

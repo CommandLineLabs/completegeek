@@ -1,10 +1,16 @@
 # How To Invest
 
-* FIXME/TODO: Add info about rebalancing.
-* FIXME/TODO: Add info about balancing between account types (taxable and non-taxable).
-* FIXME/TODO: Add guidance on selecting the percentage of your portfolio in bonds.
-* FIXME/TODO: Add more information about factors and tilting towards certain factors.
-* FIXME/TODO: Explain what stocks are and what bonds are
+**FIXME/TODO:**
+
+    * Add info about rebalancing.
+    * Add info about balancing between account types (taxable and non-taxable).
+    * Add guidance on selecting the percentage of your portfolio in bonds.
+    * Add more information about factors and tilting towards certain factors.
+        * value vs growth
+        * large cap vs small cap
+        * add other factors
+    * Explain what stocks are and what bonds are
+    * Explain why you need international stocks
 
 Asset allocation is the idea that, by combining different classes of
 assets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at the
@@ -19,7 +25,7 @@ investments with lower risk (and lower return) investments. This way you
 still get some benefit of high-risk investments, with much less chance
 of losing a major chunk of your investment.
 
-There's two [axes](https://www.grammar-monster.com/plurals/plural_of_axis.htm) on which you'll be balancing your assets:
+There's two ways you'll be balancing your assets:
 
 * Among types of assets: stocks, bonds, and subclasses of both
 * Among account types -- primarily tax-free retirement accounts and taxable accounts. You'll want some type of assets (which are subject to capital gains taxes) in a tax-free account, and others in taxable accounts.

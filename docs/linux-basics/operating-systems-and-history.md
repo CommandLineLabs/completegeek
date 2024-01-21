@@ -1,4 +1,6 @@
-# Chapter 3: Operating Systems and Unix History and Culture
+# Operating Systems and Unix History and Culture
+
+FIXME/TODO: This should probably be eliminated as a chapter and the contents introduced when we encounter them.
 
 ## What is an Operating System?
 

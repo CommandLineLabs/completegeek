@@ -42,6 +42,13 @@ I'm primarily using Vanguard funds and ETFs, but you can feel free to substitute
 
 ### Let's tilt towards "Growth" stocks
 
+If we add the S&P 500 -- the 500 largest companies in the United States -- then we're tilting towards "growth" -- stocks that everyone thinks are going up. Think Apple, Tesla, etc. The problem with that is that because everyone "knows" those stocks are going up, they're often expensive to buy, so you don't get as good a return in the long term. Or you might. We can't predict the future. Tilting towards "Growth" or "Value" stocks is largely about your own psychology and how you feel.
+
+* 30% -- Vanguard Total Bond Market Fund ([VBTLX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vbtlx))
+* 20% -- Vanguard S&P 500 ETF ([VOO](https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf)) -- An ETF consisting of the 500 largest US-based stocks
+* 30% -- Vanguard Total Stock Market Index Fund ([VTSAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsax)) -- A little bit of every stock inside the US
+* 20% -- Vanguard Total International Stock Index Fund ([VTIAX](https://investor.vanguard.com/investment-products/mutual-funds/profile/vtiax)) -- A little bit of every stock outside the US
+
 ### Let's tilt towards "Value" stocks instead
 
 Value stocks are those that are lower-priced relative to the value of the company. They are generally expected to return a higher return than other stocks -- but at a correspondingly higher risk. Also the return of value stocks over time has been pretty lumpy -- substantial periods of under-performing the general stock market, with shorter periods of outperforming the market. I have a tilt towards value in my portfolio, but it's by no means a "gimmie" or an obvious win.

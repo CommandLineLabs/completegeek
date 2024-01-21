@@ -2,6 +2,12 @@
 
 There are two essential responsibilities you'll have to take care of on your road to financial competence and being a Complete Geek. One will apply to everyone; the other may or may not depending on your situation.
 
+FIXME/TODO
+
+* Explain what a money market account is.
+* Explain when it makes sense to worry about interest rate in an emergency fund.
+* Maybe a diagram for CD ladders
+
 ## Emergency Fund
 
 The first essential responsibility is to have an **Emergency Fund** -- a

@@ -12,17 +12,13 @@
     * Explain what stocks are and what bonds are
     * Explain why you need international stocks
 
-Asset allocation is the idea that, by combining different classes of
-assets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at the
-expense of some gains. (You miss out on the big gains AND the big losses.)
+Asset allocation is the idea that, by combining different classes ofassets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at theexpense of some gains. (You miss out on the big gains AND the big losses.)
 
 For instance, if you invest only in Google stock, you'll have the chance of doing very well if Google does well, and the chance of doing very poorly if Google does poorly. If you invest in a more diversified portfolio,  you'll have a much higher chance of keeping your money, with a lower chance of making a huge killing. (Remember, the most common way to make a small fortune in the stock market is to start with a big one.)
 
 One of the basic tenets of investing is that you get rewarded for risk. If a particular asset or class of assets has a high return, you can feel assured that it has a high risk. Assets with a lower risk always have a lower return. Anytime you see anyone claiming high return with a low risk, you know you're seeing a fraud in action. ([Bernie Madoff claimed this about his investments.](http://en.wikipedia.org/wiki/Madoff_investment_scandal))
 
-Asset allocation allows you to mix high return (with high risk)
-investments with lower risk (and lower return) investments. This way you
-still get some benefit of high-risk investments, with much less chance
+Asset allocation allows you to mix high return (with high risk) investments with lower risk (and lower return) investments. This way you still get some benefit of high-risk investments, with much less chance
 of losing a major chunk of your investment.
 
 There's two ways you'll be balancing your assets:

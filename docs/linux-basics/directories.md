@@ -1,4 +1,4 @@
-# Chapter 2 - Directories
+# Making, Removing, and Changing Directories
 
 ## Introduction
 
@@ -139,7 +139,7 @@ If your commands and programs had to filter out all the "success" and "ok" messa
 
 To recap, when things go well, Unix tools don't tell you anything. (With exceptions like `ls`, where telling you something is part of their job.) Unix tools only get verbose when things go wrong.
 
-## CHECKPOINT 2: Creating, listing, changing, and removing directories
+## CHECKPOINT: Creating, listing, changing, and removing directories
 
 All the following operations will be done in your home directory.
 

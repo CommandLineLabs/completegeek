@@ -1,11 +1,5 @@
 # Absolute vs Relative Paths
 
-FIXME: Add "123 main st" vs "go two houses north
-FIXME: Explain what "var"
-FIXME: Add explanation about extension.
-
-
-
 A path is simply a string (a series of characters, of letters and symbols and numbers) that spells out a particular location for files on the computer.
 
 In the last chapter, we used paths when we created directories, changed to them, and removed them. We looked at paths when we used the `pwd` command to display the current directory, or when we looked at the command prompt to see what directory we were in.
@@ -23,6 +17,11 @@ The first part of that absolute path is the root directory, `/`. That's not a se
 Then you have the `home` directory, then `/` which in this case is a separator between two directories, and then the second directory name, `ubuntu`. Only the first `/` is the root directory; every other slash is a separator between two directories.
 
 Relative paths, by contrast, are **relative** to the directory you're in now. When you're in one directory, that relative path will go to one and only one directory or file. If you were in a different directory, though, that relative path could go to a different directory or file, or to nothing (an error).
+
+Here's one way to think about the difference:
+
+Absolute paths are like street addresses: "Go to 123 Main St."
+Relative paths are more like: "Go four houses North from where you are."
 
 Let's make this a little more real with some examples. Open a terminal and make sure you're in your home directory, and then make the following series of directories.
 
@@ -68,6 +67,10 @@ ubuntu@completegeek:~/relative2/apple$
 
 Note that we used the **exact** same command, `cd apple`, to change into two entirely different directories.
 
+We also used the shortcut from last chapter, `..`, which rRefers to the parent directory of the current directory. You can use `..` in relative paths as well! You can even combine `..` with other directory names in a relative path:
+
+`cd ../relative1`
+
 When we were in the `/home/ubuntu/relative1` directory, `cd apple` took us into `/home/ubuntu/relative1/apple`. But when we were in the `/home/ubuntu/relative2` directory, `cd apple` took us into `/home/ubuntu/relative2/apple`. Not the same place, because we used relative paths.
 
 We could also have used absolute paths.
@@ -97,7 +100,7 @@ ubuntu@completegeek:/$
 
 We used the cd command to change to the root directory, the top level of the file system. Everything else is below the root directory. Including the `home` directory.
 
-There's a lot of other directories in the root directory. Every one of them is there for a reason, and I promise, we'll go over that later. For now, let's cd to the `home` directory and then to our `ubuntu` directory using relative commands.
+The `var` directory is called that because it's the place to store variable data -- data that changes. Log files, for instance, change minute by minute or second by second as things happen on the system. There's a lot of other directories in the root directory. Every one of them is there for a reason, and I promise, we'll go over that later. For now, let's cd to the `home` directory and then to our `ubuntu` directory using relative commands.
 
 ```bash
 ubuntu@completegeek:/$ cd home
@@ -143,6 +146,8 @@ ubuntu@completegeek:/var/log$
 
 When you run the `less syslog` command you'll be looking at the contents of the syslog file. You can hit the spacebar to see the next screen, up arrow or down arrow to scroll backward or forward, or `q` to quit. Once you hit `q` you should be back at your command prompt.
 
+When you look at the directory listing of `/var/log`, you'll note that some of the files have extensions (`auth.log`) while others do not (`dmesg`). Extensions don't really mean anything on Linux -- at least to Linux. They're intended to help humans know what a file is for. Linux cares what the file name is -- the whole thing, whether or not it has an extension. (It's unfortunate that the file extensions are inconsistent, but a lot of things in Linux are inconsistent, because it was built over years by many people instead of being designed all at once.)
+
 OK, that's the bad way of doing it. How do you open that file quickly and easily without all the fuss?
 
 FIXME: Add changing back to home directory
@@ -158,18 +163,13 @@ Follow the same instructions for the `less` program, the most important of which
 
 You don't have to change directories to open files in a different directory, because absolute paths exist! (Yes, seeing people do this the slow way does frustrate the heck out of me.)
 
-# FIXME; Move .. and ~ earlier because Jennifer ran into them earlier.
-Now let's add a tiny bit more complexity.
+The final relative path we'll discuss is the shortcut to your home directory, `~`. That shortcut refers to **your** home directory.
 
-Remember the shortcut from last chapter, `..`? (Refers to the parent directory of the current directory.) You can use that in relative paths as well!
+For **you**, `~` will always refer to `/home/ubuntu`. (If you are logged in as the ubuntu user.) So it's kind of an absolute path. No ambiguity.
 
-And finally remember the shortcut to your home directory, `~`? That shortcut refers to **your** home directory. It's a relative path for a different reason.
+However, if you were logged in as the `johndoe` user, then `~` would refer to `/home/johndoe`, not `/home/ubuntu`, so I'd still consider it a relative path.
 
-For **you**, `~` will always refer to `/home/ubuntu`. So it's kind of an absolute path. No ambiguity.
-
-However, if you were logged in as the `johndoe` user, then `~` would refer to `/home/johndoe`, not `/home/ubuntu`. Just something to keep in mind for later.
-
-If anything here is unclear, go through the chapter again, and actually do the commands I show you -- don't just read them.
+If anything here is unclear, go through the chapter again, and make sure you do the commands I show you -- don't just read them.
 
 ## CHECKPOINT: Absolute vs Relative Paths
 

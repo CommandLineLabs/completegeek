@@ -164,7 +164,7 @@ If anything here is unclear, go through the chapter again, and actually do the c
 
 ## CHECKPOINT: Absolute vs Relative Paths
 
-1. Change to the relative4 directory using an absolute paths.
+1. Change to the relative4 directory using an absolute path.
 2. Change to the peach directory using a relative path.
 3. Change to the relative3 directory using an absolute path.
 4. Change to the peach directory inside relative3 using relative paths.

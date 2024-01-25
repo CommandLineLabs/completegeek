@@ -2,7 +2,7 @@
 
 FIXME: Add "123 main st" vs "go two houses north
 FIXME: Explain what "var"
-
+FIXME: Add explanation about extension.
 
 
 
@@ -176,9 +176,9 @@ If anything here is unclear, go through the chapter again, and actually do the c
 1. Change to the absolute1 directory using an absolute path.
 2. Change to the peach directory using a relative path.
 3. Change to the relative3 directory using an absolute path.
-4. Change to the peach directory inside relative3 using relative paths.
+4. Try to change to the peach directory inside relative3 using `cd peach`.
 5. That didn't work. Why not? Do you understand the error message you got?
-6. Without changing directories, open the "auth.log" file in "/var/log" using less.
-7. From the relative1, directory, change to the relative2 directory using relative paths and the `..` shortcut.
+6. Without changing directories, open the "auth.log" file in "/var/log" using the `less` program.
+7. From the relative1, directory, change to the relative2 directory using relative paths and the `..` shortcut. If you did it in multiple steps, now change back to the original directory in one step.
 8. From your home directory, change directories to the root directory, in one step, using relative paths. Hint: use `..`. Maybe more than once.
 9. Change to the /var/log directory, and then, using `~`, change back to your home directory.

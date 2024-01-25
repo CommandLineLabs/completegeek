@@ -1,6 +1,6 @@
 # Absolute vs Relative Paths
 
-Linux has the concept of *absolute* vs *relative* paths. A path is simply a string (a series of characters, of letters and symbols and numbers) that spells out a particular location in the file system.
+A path is simply a string (a series of characters, of letters and symbols and numbers) that spells out a particular location for files on the computer.
 
 In the last chapter, we used paths when we created directories, changed to them, and removed them. We looked at paths when we used the `pwd` command to display the current directory, or when we looked at the command prompt to see what directory we were in.
 
@@ -40,7 +40,7 @@ What did we do there?
 
 First we made sure what directory we were in -- vital if you're going to use relative paths.
 
-Then we made the directories relative1, relative2, and relative3 in your `/home/ubuntu` folder, without specifying the `/home/ubuntu` part. We were able to do that because we used relative paths. Then we created `apple` directories inside `relative1`, `relative2`, and `relative3. `
+Then we made the directories relative1, relative2, and relative3 in your `/home/ubuntu` folder, without specifying the `/home/ubuntu` part. We were able to do that because we used relative paths. Then we created `apple` directories inside `relative1`, `relative2`, and `relative3.`
 
 Next we used **absolute** paths to create `absolute1` and `apple,` `peach,` and `pear` inside it.
 
@@ -163,7 +163,6 @@ However, if you were logged in as the `johndoe` user, then `~` would refer to `/
 If anything here is unclear, go through the chapter again, and actually do the commands I show you -- don't just read them.
 
 ## CHECKPOINT: Absolute vs Relative Paths
-
 
 1. Change to the relative4 directory using an absolute paths.
 2. Change to the peach directory using a relative path.

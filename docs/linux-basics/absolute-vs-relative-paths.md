@@ -6,7 +6,7 @@ In the last chapter, we used paths when we created directories, changed to them,
 
 There are two different ways of specifying paths. Those two ways are **absolute** and **relative.**
 
-I see even fairly experienced programmers messing up absolute vs relative. This is an absolutely foundational piece of knowledge you'll need throughout your career. So we're going to do a bunch of examples to help you nail down the concept.
+I see even fairly experienced programmers messing up absolute vs relative. This is a foundational piece of knowledge you'll need throughout your career. So we're going to do a bunch of examples to help you nail down the concept.
 
 Absolute paths have zero ambiguity. They start from the root of the file system, and specify the path exactly. Each absolute path refers to one and only one directory (or file). Let's look at a path we've already dealt with in the last chapter as an example:
 

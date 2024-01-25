@@ -1,46 +1,30 @@
-# Chapter 3: Increase Your Savings Rate
+# Increase Your Savings Rate
 
-The most important part of investment is increasing your saving rate.
-Someone who saves 30% of his income but invests with mediocre returns
-will be far better off than someone who invests 10% of his income
-brilliantly.
+The most important part of retirement planning is increasing your saving rate. Someone who saves 30% of her income but invests with mediocre returns will be far better off than someone who invests 10% of the same income brilliantly.
 
-The chief gurus of the "Save More Money" movement are Jacob of [Early
-Retirement Extreme](http://earlyretirementextreme.com/about) and Mr.
-Money Mustache (really!) of
-[mrmoneymustache.com](http://www.mrmoneymustache.com/).
+There's some confusion about this, so let's dig into what does and does not count as saving your money.
 
-While I haven't yet read all of Early Retirement Extreme (his book is on
-request for me at the library) I have read most of Mr. Money Mustache's
-(MMM) site.
+These go in the "spending your money" category:
 
-I've said that getting married was the impetus that made me start
-working towards financial competence, but I owe a debt to MMM as well. I
-think getting married planted the seed of desire towards being
-financially competent, but MMM gave me the kick in the pants I needed,
-as well as the roadmap I've used to build [my own plan towards financial
-competence](/2012/12/29/a-financial-roadmap "A Roadmap to Financial Competence").
-I can't recommend the MMM site highly enough -- it's an excellent
-starting point towards financial competence.
+* Buying groceries, paying rent, and all the other expenses of daily living
+* Paying off the amount you put on your credit cards **this month**
+* Paying interest on any debt
+* Paying taxes
 
-What I learned there is that the single most important way to secure
-your financial future is to spend significantly less than you make. This
-helps you in two ways:
+These go in the "saving your money" category:
+
+* Paying back the principal on any debt (not counting the current month's credit card spending)
+* Putting money in your emergency fund
+* Putting money in your tax-advantaged retirement accounts
+* Putting money into your regular (non-retirement) investment accounts
+
+Let's emphasize one key point again: Paying off the credit-card debt that you took on this month is NOT saving. It's just paying your bill. Remember, you should not put anything on a credit card unless you can pay it off when the bill is due without paying interest.
+
+Paying off **old** credit-card debt (or any debt) **is** considered saving. If you want to get technical, the interest you pay on old debt is spending, and the principal you pay back is saving. I'm not sure how important it is to track this distinction though.
+
+What I learned there is that the single most important way to secure your financial future is to spend significantly less than you make. This helps you in two ways:
 
 1. Your nest egg grows more
     quickly
 2. Once you retire, if you keep your expenses low, you can live on a
     smaller nest egg.
-
-We've got a ways to go here in the Schofield household to reach our
-goal. Currently, we want to save 30% of our income each month and apply
-it to either debt or investment. In November we were at about 10% and in
-December, due to Christmas presents, we're at about 0%. I'm not proud of
-that. (You can read about response to that -- [A No Gift Christmas next
-year](/2012/12/30/a-no-gift-christmas "A No-Gift Christmas").)
-
-So our goal is to decrease our spending each month by 10% until we're
-saving 30% of our gross income. (I'd prefer to be saving 50%, but I want
-to set an achievable first goal.) I'll keep you posted as to how we do.
-Tell me in the comments how much you're saving, and what savings goal
-you're striving for.

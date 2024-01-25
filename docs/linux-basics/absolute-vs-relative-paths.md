@@ -21,7 +21,7 @@ Relative paths, by contrast, are **relative** to the directory you're in now. Wh
 Here's one way to think about the difference:
 
 Absolute paths are like street addresses: "Go to 123 Main St."
-Relative paths are more like: "Go four houses North from where you are."
+Relative paths are like directions: "Go four houses North from where you are."
 
 Let's make this a little more real with some examples. Open a terminal and make sure you're in your home directory, and then make the following series of directories.
 
@@ -48,6 +48,8 @@ First we made sure what directory we were in -- vital if you're going to use rel
 Then we made the directories relative1, relative2, and relative3 in your `/home/ubuntu` folder, without specifying the `/home/ubuntu` part. We were able to do that because we used relative paths. Then we created `apple` directories inside `relative1`, `relative2`, and `relative3.`
 
 Next we used **absolute** paths to create `absolute1` and `apple,` `peach,` and `pear` inside it.
+
+Note that there is no difference between a directory created with absolute path names and one created with relative path names -- it's just a difference in how we're specifying the path at the time we're issuing the command.
 
 Now let's change directories to some of the directories we just created.
 

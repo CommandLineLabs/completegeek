@@ -1,5 +1,11 @@
 # Absolute vs Relative Paths
 
+FIXME: Add "123 main st" vs "go two houses north
+FIXME: Explain what "var"
+
+
+
+
 A path is simply a string (a series of characters, of letters and symbols and numbers) that spells out a particular location for files on the computer.
 
 In the last chapter, we used paths when we created directories, changed to them, and removed them. We looked at paths when we used the `pwd` command to display the current directory, or when we looked at the command prompt to see what directory we were in.
@@ -44,7 +50,7 @@ Then we made the directories relative1, relative2, and relative3 in your `/home/
 
 Next we used **absolute** paths to create `absolute1` and `apple,` `peach,` and `pear` inside it.
 
-Now let's change directories in some of the directories we just created.
+Now let's change directories to some of the directories we just created.
 
 ```bash
 ubuntu@completegeek:~$ pwd
@@ -55,8 +61,8 @@ ubuntu@completegeek:~/relative1/apple$ pwd
 /home/ubuntu/relative1/apple
 ubuntu@completegeek:~/relative1/apple$ cd ..
 ubuntu@completegeek:~/relative1$ cd ..
-ubuntu@completegeek:~$ cd relative2/
-ubuntu@completegeek:~/relative2$ cd apple/
+ubuntu@completegeek:~$ cd relative2
+ubuntu@completegeek:~/relative2$ cd apple
 ubuntu@completegeek:~/relative2/apple$
 ```
 
@@ -67,9 +73,9 @@ When we were in the `/home/ubuntu/relative1` directory, `cd apple` took us into 
 We could also have used absolute paths.
 
 ```bash
-ubuntu@completegeek:~/relative2$ pwd
+ubuntu@completegeek:~/relative2/apple$ pwd
 /home/ubuntu/relative2
-ubuntu@completegeek:~/relative2$ cd /home/ubuntu/relative3/apple/
+ubuntu@completegeek:~/relative2$ cd /home/ubuntu/relative3/apple
 ubuntu@completegeek:~/relative3/apple$ pwd
 /home/ubuntu/relative3/apple
 ubuntu@completegeek:~/relative3/apple$
@@ -119,7 +125,7 @@ Also we've got a little ambiguity I'd like to call out. There is a directory cal
 
 Now let's look at a practical example. Linux keeps logs, or lists of things that have happened on the system. (We're going to go into a lot of detail about this later. It's vital for troubleshooting.)
 
-We're going to cd to the logs directory and look at one of the logs using the `less` utility. Less is a program used to look at the contents of files. (There's a program called `more` that is used to display a screen of text at a time. When someone came up with a more advanced version of `more`, of course they called it `less`. There's a long and painful tradition of bad jokes in Unix/Linux.)
+We're going to cd to the log directory and look at one of the logs using the `less` utility. Less is a program used to look at the contents of files. (There's a program called `more` that is used to display a screen of text at a time. When someone came up with a more advanced version of `more`, of course they called it `less`. There's a long and painful tradition of bad jokes in Unix/Linux.)
 
 ```bash
 ubuntu@completegeek:~$
@@ -139,6 +145,8 @@ When you run the `less syslog` command you'll be looking at the contents of the 
 
 OK, that's the bad way of doing it. How do you open that file quickly and easily without all the fuss?
 
+FIXME: Add changing back to home directory
+
 ```bash
 ubuntu@completegeek:~$ pwd
 /home/ubuntu
@@ -150,6 +158,7 @@ Follow the same instructions for the `less` program, the most important of which
 
 You don't have to change directories to open files in a different directory, because absolute paths exist! (Yes, seeing people do this the slow way does frustrate the heck out of me.)
 
+# FIXME; Move .. and ~ earlier because Jennifer ran into them earlier.
 Now let's add a tiny bit more complexity.
 
 Remember the shortcut from last chapter, `..`? (Refers to the parent directory of the current directory.) You can use that in relative paths as well!
@@ -164,7 +173,7 @@ If anything here is unclear, go through the chapter again, and actually do the c
 
 ## CHECKPOINT: Absolute vs Relative Paths
 
-1. Change to the relative4 directory using an absolute path.
+1. Change to the absolute1 directory using an absolute path.
 2. Change to the peach directory using a relative path.
 3. Change to the relative3 directory using an absolute path.
 4. Change to the peach directory inside relative3 using relative paths.

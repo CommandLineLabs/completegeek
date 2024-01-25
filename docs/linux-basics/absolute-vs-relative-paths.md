@@ -12,7 +12,7 @@ Absolute paths have zero ambiguity. They start from the root of the file system,
 
 `/home/ubuntu`
 
-The first part of that absolute path is the root directory, `/`. That's not a separator between two directories, that's an actual directory itself. The "root" of the tree, if you will. (Yes, I know actual trees with leaves have multiple roots. Bear with me. Paths don't.)
+The first part of that absolute path is the root directory, `/`. That's not a separator between two directories, that's an actual directory itself. The "root" of the files on the system, if you will. (Yes, I know actual trees with leaves have multiple roots. Bear with me. Paths don't.)
 
 Then you have the `home` directory, then `/` which in this case is a separator between two directories, and then the second directory name, `ubuntu`. Only the first `/` is the root directory; every other slash is a separator between two directories.
 

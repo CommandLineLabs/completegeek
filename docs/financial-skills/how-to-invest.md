@@ -12,7 +12,7 @@
     * Explain what stocks are and what bonds are
     * Explain why you need international stocks
 
-Asset allocation is the idea that, by combining different classes ofassets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at theexpense of some gains. (You miss out on the big gains AND the big losses.)
+Asset allocation is the idea that, by combining different classes of assets, you can greatly reduce volatility (the amount that your portfolio fluctuates up and down). You get increased stability and safety, probably at the expense of some gains. (You miss out on the big gains AND the big losses.)
 
 For instance, if you invest only in Google stock, you'll have the chance of doing very well if Google does well, and the chance of doing very poorly if Google does poorly. If you invest in a more diversified portfolio,  you'll have a much higher chance of keeping your money, with a lower chance of making a huge killing. (Remember, the most common way to make a small fortune in the stock market is to start with a big one.)
 

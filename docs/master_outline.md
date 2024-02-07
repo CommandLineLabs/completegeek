@@ -13,6 +13,7 @@ At the current (January 2024) stage, no check-mark means it's probably gibberish
 * [√ Getting Started](./linux-basics/getting-started.md)
 * [√ Making, Removing, and Changing Directories](./linux-basics/directories.md)
 * [√ Absolute versus relative paths](./linux-basics/absolute-vs-relative-paths.md)
+* [√ Command-Line Options and Arguments](./linux-basics/command-line-options-and-arguments.md)
 * [How to get help.](./linux-basics/getting-help.md)
 * [File and directory operations](./linux-basics/file-and-directory-operations.md)
 * [Permissions and Ownership](./linux-basics/permissions-and-ownership.md)

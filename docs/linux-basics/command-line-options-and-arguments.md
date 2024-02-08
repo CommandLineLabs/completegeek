@@ -12,7 +12,7 @@ If you just type `ls` with no options, and hit enter, `ls` will list the content
 
 ```bash
 ubuntu@completegeek:~$ ls
-relative1  relative2  relative3  relative4
+absolute1 relative1  relative2  relative3
 ubuntu@completegeek:~$
 ```
 

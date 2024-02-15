@@ -14,7 +14,7 @@ These man pages are documentation pages that come with your operating system or 
 
 Man pages can be difficult to read, and reading them is definitely a skill that you'll need to learn. They're generally accurate, but often not very helpful. I've often found myself solving a problem with a program in some other way (Google, etc.) and then once I understand the solution, I re-read the man page only to discover that the answer was there all along, I just didn't understand it. (Or the correct answer was implied instead of stated outright.)
 
-To read man pages, we'll use the man application. After the name of the man application, you'll include as an *argument* the name of the program you want information about. (We'll cover arguments in more depth later in this chapter.)
+To read man pages, we'll use the `man` application. After the name of the `man` application, you'll include as an *argument* the name of the program you want information about. (We'll cover arguments in more depth later in this chapter.)
 
 So, to read the manual page for the "touch" application, you'd issue the following command:
 

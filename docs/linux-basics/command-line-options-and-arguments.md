@@ -1,5 +1,8 @@
 # Command-Line Options and Arguments
 
+FIXME: Add note explaining the ls column headings.
+
+
 Almost every Linux command-line program is controlled by command-line options and arguments. How? By putting those arguments and options on the command-line after the name of the program, and hitting ENTER.
 
 The other way programs are configured is by configuration files -- plain-text files, written in a format that the program understands, that it reads to see what it's supposed to do. We'll deal with configuration files in a later chapter.
@@ -90,7 +93,7 @@ ubuntu@completegeek:~$
 ## CHECKPOINT: Options and Arguments
 
 1. Inside your home directory, create a directory "peach" with the directory "eggplant" inside it. Use only one command.
-2. Without changing directories, list all of the contents of the eggplant directory, including file sizes. Use only one command.
+2. Without changing directories, list all of the contents of the peach directory, including file sizes. Use only one command.
 3. In the command `touch testfile.txt`, is "testfile.txt" an option or an argument? Why?
 4. In only one command, list the contents of the `/etc` directory, including showing the classification of each file and directory in the `/etc` folder.
 5. In the command you used to answer #4, what was an option and what was an argument?

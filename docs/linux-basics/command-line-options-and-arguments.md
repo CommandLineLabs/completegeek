@@ -28,6 +28,7 @@ With command-line options you can change how `ls` behaves. There's four options 
 * `-l`: Show a long listing. (That's a lower-case "L," not a "1" or an "I.") This shows you much more information about each file and directory.
 * `-F` or `--classify`: Put a character at the end of some file names to indicate what they are. Executable files (programs) get an `*`, directories get a `/`,
 
+A digression about the columns you see in the `ls -l` output:
 Note that most options have a single-letter version (proceeded by a single dash) and a longer version (proceeded by a double-dash). They're interchangeable -- using the short or long version of an option has exactly the same effect.
 
 So, the most verbose way of using those options would be:

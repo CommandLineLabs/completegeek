@@ -1,6 +1,6 @@
 # Getting Help
 
-Nobody remembers everything. No matter how much you study this information, you'll forget some (most?) of it. What's important is to remember that the information exists, and be able to find it again.
+Nobody remembers everything. No matter how much you study this information, you'll forget some (most?) of it. What's important is to remember that the information exists, and be able to find it again. That includes this chapter -- you won't remember all of it, but please keep it handy so you can refer back to it.
 
 I'd strongly recommend you take ongoing notes about what you're learning, in a way that works for you -- a text file, a notes app, paper and pencil -- but take notes. This will be your first resource.
 
